@@ -1,0 +1,87 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑"; }
+
+img {
+  display: block; }
+
+i, em {
+  font-style: normal; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6, b {
+  font-weight: normal; }
+
+.commonWidth, .top, .deng {
+  width: 100%;
+  min-width: 1210px;
+  margin: 0 auto; }
+
+.centerFixed, .tan_tc, .top_tc {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: none; }
+
+/*<-------------------------打开页面的弹窗------------------------->*/
+.tan_tc .tan_open {
+  width: 920px;
+  height: 560px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto; }
+  .tan_tc .tan_open a {
+    width: 69px;
+    height: 68px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background: url(../../imgs/index/147866030690_69x68.png) no-repeat; }
+
+/*<!-------------------------页面底部固定的透明层------------------------->*/
+/*<!-------------------------顶部赔偿栏----------------------------->*/
+.top {
+  background: url(../../imgs/index/147857407039_1920x80.jpg) no-repeat top; }
+  .top img {
+    margin: 0 auto; }
+
+.top_tc .top_click {
+  width: 490px;
+  height: 512px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto; }
+  .top_tc .top_click a {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer; }
+
+/*<!-------------------------登录栏---------------------------->*/
+.deng {
+  height: 30px;
+  background: #f1f1f1; }
+
+/*# sourceMappingURL=index.css.map */

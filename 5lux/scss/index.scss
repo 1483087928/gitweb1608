@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import "common";
+
+/*<-------------------------打开页面的弹窗------------------------->*/
+.tan_tc{
+     @extend .centerFixed;
+    .tan_open{
+        width: 920px;
+        height: 560px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;      
+        a{
+            width: 69px;
+            height: 68px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+            background: url(../../imgs/index/147866030690_69x68.png) no-repeat;
+        }       
+    }
+}
+
+/*<!-------------------------页面底部固定的透明层------------------------->*/
+
+    
+/*<!-------------------------顶部赔偿栏----------------------------->*/
+.top{
+    @extend .commonWidth;
+    background: url(../../imgs/index/147857407039_1920x80.jpg) no-repeat top;
+   img{     
+       margin: 0 auto;
+   }
+}
+.top_tc{
+    @extend .centerFixed;
+    .top_click{
+        width: 490px;
+        height: 512px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;          
+        a{
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;          
+        } 
+    }             
+}    
+/*<!-------------------------登录栏---------------------------->*/
+.deng{
+    @extend .commonWidth;
+    height: 30px;
+    background:#f1f1f1;
+}
