@@ -60,6 +60,271 @@
 /*<!-------------------------登录栏---------------------------->*/
 .deng{
     @extend .commonWidth;
-    height: 30px;
     background:#f1f1f1;
+    color:#666;    
+}
+.deng_top{
+    @extend .Width;
+    height: 30px;
+    line-height: 30px;   
+    clear: both;
+    a{
+        color:#666; 
+    }
+    .deng_left{
+        float: left;
+        .home{
+            width: 110px;           
+            clear: both;
+            &:hover{
+                   color: $color2; 
+            }                                   
+            img{
+                float: left;
+                margin-top: 7px;
+                margin-right: 5px;
+            }            
+        }
+        .call{
+            width: 166px;
+            padding-left: 25px;
+            position: relative;
+            span{
+                position: absolute;
+                top: -7px;
+                left: 0;
+                width: 25px;
+                height: 30px;
+               background: url(../../imgs/index/brandstore_share.png) no-repeat -348px -338px; 
+            }           
+        }
+    }
+    .deng_right{
+        float: right;              
+        li{           
+            float: left;           
+            height: 17px;
+            line-height: 17px;
+            border-right: 1px solid #ccc;
+            margin-top: 7px;
+            position: relative;                          
+        }               
+        .denglu{
+        width: 100px;
+            a{
+                position: absolute;
+                right: 15px;
+                &:hover{
+                    color: $color1;
+                }
+            }                         
+        }
+        .zhuce{
+            width: 88px;
+            background: url(../../imgs/index/youli.gif) no-repeat 10px -5px;
+            a{
+                position: absolute;
+                right: 15px;
+                &:hover{
+                   color: $color2; 
+                }                       
+            }                                  
+        }
+        .my5lux{
+            width: 130px;
+            background: url(../../imgs/index/brandstore_share.png) no-repeat no-repeat -253px -442px;
+            &:hover{
+                background: #fff;
+                background: url(../../imgs/index/brandstore_share.png) no-repeat -253px -470px;                
+            }
+            a{
+                position: absolute;
+                
+                left: 15px;
+                &:hover{
+                   color: $color2; 
+                }                              
+            }
+            position: relative;          
+              .mylist{
+                position: absolute;
+                top: 17px;
+                left: -15px;                
+                display: none;
+                z-index: 2;
+                li{
+                    width: 130px;                   
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    clear: both;
+                    border: none;                 
+                    margin: 0;
+                    a{
+                        width: 130px;
+                        width: 130px;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        &:hover{
+                            color: $color1;
+                        }
+                    }
+                }                             
+              }  
+             
+        }
+        .help{
+            width: 85px;
+            a{
+                position: absolute;
+                left: 20px;
+                &:hover{
+                   color: $color2; 
+                }                       
+            }
+        }
+        .phone{
+            width: 128px;
+            border: none;
+            background: url(../../imgs/index/brandstore_share.png) no-repeat -200px -376px;
+            &:hover{
+                background: url(../../imgs/index/brandstore_share.png) no-repeat -200px -411px;              
+            }
+            a{
+                position: absolute;
+                left: 20px;
+                &:hover{
+                    color: $color1;
+                }
+            }
+            .qr{
+               width: 128px;                                  
+               position: absolute;
+               top: 17px;
+               left: 0;
+               display: none;
+               z-index: 2;
+               p{
+                   text-align: center;
+               }                  
+                dt{    
+                    width: 106px;
+                    height: 106px;                                    
+                    img{                       
+                        position: absolute;
+                        left: -10px;
+                        width: 106px;
+                        height: 106px;                       
+                    }                   
+                }
+                dd{
+                    width: 106px;
+                    height: 20px;
+                    position: relative;
+                    left: 10px;
+                    font-size: 13px;                                                        
+                    i{
+                       position: relative;
+                       left: 5px;
+                       top: -2px;
+                       height: 20px;
+                       line-height: 20px; 
+                       color: $color1;
+                       font-size: 16px;
+                    }
+                }                         
+            }
+        }             
+    }
+}
+
+/*<!-- -------------------logo------------------------------------------->*/
+.logo{
+    @extend .commonWidth;
+}
+.lg{
+    @extend .Width;
+    height: 110px;
+    position: relative;
+    .logo1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 224px;
+        height: 110px;
+    }
+    .logo2{
+        position: absolute;
+        left: 290px;
+        top: 14px;
+        width: 142px;
+        height: 80px;
+    }
+    .search{
+        position: absolute;
+        left: 485px;
+        top: 36px;
+        form{
+           background: $color5;
+           padding: 2px; 
+        }       
+        .search_input{
+            width: 300px;
+            height: 34px;
+            line-height: 34px;
+            border: none;
+            background: $color4;
+            padding-left: 3px;
+        }
+        .but{
+            width: 80px;
+            height: 34px;
+            border: none;
+            background: none;
+            color: $color4;
+            font-size: 15px;
+        }
+        .search_list{
+            clear: both;
+            li{
+                float: left;                
+                font-size: 11px;
+                padding-right: 25px;
+                line-height: 32px;
+                a{
+                    color: $color6;
+                    &:hover{
+                         color: $color1;
+                    }
+                }               
+            }
+        }
+    }
+    .logocart{
+        position: absolute;
+        right: 10px;
+        top: 35px;
+        width: 138px;
+        height: 32px;
+        line-height: 32px;
+        border: 1px solid $color7;                    
+        box-shadow: 0 0 2px rgba(0,0,0,0.2);       
+        background: url(../../imgs/index/brandstore_share.png) no-repeat -337px -405px;             
+        img{
+            position: absolute;
+            left: 10px;
+            top: 2px;
+        }
+        span{              
+            position: absolute;
+            left: 40px;            
+            a{
+               color: $color8;
+               i{
+                   color: $color1;
+               } 
+            }
+        }
+    }
 }

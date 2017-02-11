@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0; }
 
-ul, ol {
+ul, ol, li {
   list-style: none; }
 
 body {
@@ -22,9 +22,12 @@ a {
 h1, h2, h3, h4, h5, h6, b {
   font-weight: normal; }
 
-.commonWidth, .top, .deng {
+.commonWidth, .top, .deng, .logo {
   width: 100%;
-  min-width: 1210px;
+  min-width: 1210px; }
+
+.Width, .deng_top, .lg {
+  width: 1210px;
   margin: 0 auto; }
 
 .centerFixed, .tan_tc, .top_tc {
@@ -81,7 +84,213 @@ h1, h2, h3, h4, h5, h6, b {
 
 /*<!-------------------------登录栏---------------------------->*/
 .deng {
+  background: #f1f1f1;
+  color: #666; }
+
+.deng_top {
   height: 30px;
-  background: #f1f1f1; }
+  line-height: 30px;
+  clear: both; }
+  .deng_top a {
+    color: #666; }
+  .deng_top .deng_left {
+    float: left; }
+    .deng_top .deng_left .home {
+      width: 110px;
+      clear: both; }
+      .deng_top .deng_left .home:hover {
+        color: #c2a67d; }
+      .deng_top .deng_left .home img {
+        float: left;
+        margin-top: 7px;
+        margin-right: 5px; }
+    .deng_top .deng_left .call {
+      width: 166px;
+      padding-left: 25px;
+      position: relative; }
+      .deng_top .deng_left .call span {
+        position: absolute;
+        top: -7px;
+        left: 0;
+        width: 25px;
+        height: 30px;
+        background: url(../../imgs/index/brandstore_share.png) no-repeat -348px -338px; }
+  .deng_top .deng_right {
+    float: right; }
+    .deng_top .deng_right li {
+      float: left;
+      height: 17px;
+      line-height: 17px;
+      border-right: 1px solid #ccc;
+      margin-top: 7px;
+      position: relative; }
+    .deng_top .deng_right .denglu {
+      width: 100px; }
+      .deng_top .deng_right .denglu a {
+        position: absolute;
+        right: 15px; }
+        .deng_top .deng_right .denglu a:hover {
+          color: #d00000; }
+    .deng_top .deng_right .zhuce {
+      width: 88px;
+      background: url(../../imgs/index/youli.gif) no-repeat 10px -5px; }
+      .deng_top .deng_right .zhuce a {
+        position: absolute;
+        right: 15px; }
+        .deng_top .deng_right .zhuce a:hover {
+          color: #c2a67d; }
+    .deng_top .deng_right .my5lux {
+      width: 130px;
+      background: url(../../imgs/index/brandstore_share.png) no-repeat no-repeat -253px -442px;
+      position: relative; }
+      .deng_top .deng_right .my5lux:hover {
+        background: #fff;
+        background: url(../../imgs/index/brandstore_share.png) no-repeat -253px -470px; }
+      .deng_top .deng_right .my5lux a {
+        position: absolute;
+        left: 15px; }
+        .deng_top .deng_right .my5lux a:hover {
+          color: #c2a67d; }
+      .deng_top .deng_right .my5lux .mylist {
+        position: absolute;
+        top: 17px;
+        left: -15px;
+        display: none;
+        z-index: 2; }
+        .deng_top .deng_right .my5lux .mylist li {
+          width: 130px;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          clear: both;
+          border: none;
+          margin: 0; }
+          .deng_top .deng_right .my5lux .mylist li a {
+            width: 130px;
+            width: 130px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center; }
+            .deng_top .deng_right .my5lux .mylist li a:hover {
+              color: #d00000; }
+    .deng_top .deng_right .help {
+      width: 85px; }
+      .deng_top .deng_right .help a {
+        position: absolute;
+        left: 20px; }
+        .deng_top .deng_right .help a:hover {
+          color: #c2a67d; }
+    .deng_top .deng_right .phone {
+      width: 128px;
+      border: none;
+      background: url(../../imgs/index/brandstore_share.png) no-repeat -200px -376px; }
+      .deng_top .deng_right .phone:hover {
+        background: url(../../imgs/index/brandstore_share.png) no-repeat -200px -411px; }
+      .deng_top .deng_right .phone a {
+        position: absolute;
+        left: 20px; }
+        .deng_top .deng_right .phone a:hover {
+          color: #d00000; }
+      .deng_top .deng_right .phone .qr {
+        width: 128px;
+        position: absolute;
+        top: 17px;
+        left: 0;
+        display: none;
+        z-index: 2; }
+        .deng_top .deng_right .phone .qr p {
+          text-align: center; }
+        .deng_top .deng_right .phone .qr dt {
+          width: 106px;
+          height: 106px; }
+          .deng_top .deng_right .phone .qr dt img {
+            position: absolute;
+            left: -10px;
+            width: 106px;
+            height: 106px; }
+        .deng_top .deng_right .phone .qr dd {
+          width: 106px;
+          height: 20px;
+          position: relative;
+          left: 10px;
+          font-size: 13px; }
+          .deng_top .deng_right .phone .qr dd i {
+            position: relative;
+            left: 5px;
+            top: -2px;
+            height: 20px;
+            line-height: 20px;
+            color: #d00000;
+            font-size: 16px; }
+
+/*<!-- -------------------logo------------------------------------------->*/
+.lg {
+  height: 110px;
+  position: relative; }
+  .lg .logo1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 224px;
+    height: 110px; }
+  .lg .logo2 {
+    position: absolute;
+    left: 290px;
+    top: 14px;
+    width: 142px;
+    height: 80px; }
+  .lg .search {
+    position: absolute;
+    left: 485px;
+    top: 36px; }
+    .lg .search form {
+      background: #c69c6d;
+      padding: 2px; }
+    .lg .search .search_input {
+      width: 300px;
+      height: 34px;
+      line-height: 34px;
+      border: none;
+      background: #fff;
+      padding-left: 3px; }
+    .lg .search .but {
+      width: 80px;
+      height: 34px;
+      border: none;
+      background: none;
+      color: #fff;
+      font-size: 15px; }
+    .lg .search .search_list {
+      clear: both; }
+      .lg .search .search_list li {
+        float: left;
+        font-size: 11px;
+        padding-right: 25px;
+        line-height: 32px; }
+        .lg .search .search_list li a {
+          color: #999; }
+          .lg .search .search_list li a:hover {
+            color: #d00000; }
+  .lg .logocart {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    width: 138px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    background: url(../../imgs/index/brandstore_share.png) no-repeat -337px -405px; }
+    .lg .logocart img {
+      position: absolute;
+      left: 10px;
+      top: 2px; }
+    .lg .logocart span {
+      position: absolute;
+      left: 40px; }
+      .lg .logocart span a {
+        color: #666; }
+        .lg .logocart span a i {
+          color: #d00000; }
 
 /*# sourceMappingURL=index.css.map */

@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0; }
 
-ul, ol {
+ul, ol, li {
   list-style: none; }
 
 body {
@@ -24,7 +24,10 @@ h1, h2, h3, h4, h5, h6, b {
 
 .commonWidth {
   width: 100%;
-  min-width: 1210px;
+  min-width: 1210px; }
+
+.Width {
+  width: 1210px;
   margin: 0 auto; }
 
 .centerFixed {

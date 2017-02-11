@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-ul,ol{
+ul,ol,li{
     list-style: none;
 }
 body{
@@ -16,7 +16,7 @@ img{
 i,em{
     font-style: normal;
 }
-a{
+a{  
     text-decoration: none;
 }
 h1,h2,h3,h4,h5,h6,b{
@@ -25,8 +25,11 @@ h1,h2,h3,h4,h5,h6,b{
 //窗口最小宽度
 .commonWidth{
     width: 100%;
-    min-width: 1210px;
-    margin: 0 auto;    
+    min-width: 1210px;      
+}
+.Width{
+    width: 1210px;
+    margin: 0 auto; 
 }
 //固定到窗口中央
 .centerFixed{
@@ -38,3 +41,15 @@ h1,h2,h3,h4,h5,h6,b{
     z-index: 1000;
     display: none;
 }
+
+//颜色
+$color1: #d00000;//红色
+$color2: #c2a67d;//棕色
+$color3: #000;
+$color4: #fff;
+$color5: #c69c6d;//搜索框
+$color6: #999;
+$color7: #ccc;
+$color8: #666;
+
+
