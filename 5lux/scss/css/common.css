@@ -11,22 +11,34 @@ body {
   font-family: "微软雅黑"; }
 
 img {
-  display: block; }
+  border: none; }
 
 i, em {
   font-style: normal; }
 
 a {
+  text-decoration: none;
+  color: inherit; }
+
+a:hover {
+  color: inherit;
   text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6, b {
   font-weight: normal; }
 
-.commonWidth {
-  width: 100%;
-  min-width: 1210px; }
+table, tr, td, th {
+  border: none;
+  text-align: left; }
 
-.Width {
+table {
+  border-collapse: collapse; }
+
+.commonWidth, .nav, .footbg {
+  width: 100%;
+  min-width: 1349px; }
+
+.Width, .nav .menu, .footbg .foot {
   width: 1210px;
   margin: 0 auto; }
 
@@ -38,5 +50,676 @@ h1, h2, h3, h4, h5, h6, b {
   background: rgba(0, 0, 0, 0.5);
   z-index: 1000;
   display: none; }
+
+.showshop1, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop, .nav .menu .menu_first .menu_list .muying .muying_show .showshop, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop {
+  width: 650px;
+  line-height: 25px;
+  min-height: 25px;
+  border-bottom: 1px solid #d7d7d7;
+  margin-left: 50px;
+  background-color: #ffffff;
+  margin: 10px 0px 10px 20px;
+  overflow: hidden;
+  position: relative; }
+  .showshop1 .right, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop .right, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop .right, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop .right, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop .right, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop .right, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop .right, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop .right, .nav .menu .menu_first .menu_list .muying .muying_show .showshop .right, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop .right, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop .right, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop .right, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop .right, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop .right, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop .right, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop .right {
+    position: absolute;
+    left: 130px;
+    top: 0;
+    overflow: hidden; }
+    .showshop1 .right a, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop .right a, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop .right a, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop .right a, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop .right a, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop .right a, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop .right a, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop .right a, .nav .menu .menu_first .menu_list .muying .muying_show .showshop .right a, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop .right a, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop .right a, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop .right a, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop .right a, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop .right a, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop .right a, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop .right a {
+      float: left;
+      margin-right: 10px;
+      height: 25px;
+      line-height: 25px;
+      color: #757272;
+      font-weight: normal;
+      font-size: 12px; }
+      .showshop1 .right a:hover, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .muying .muying_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop .right a:hover {
+        text-decoration: underline; }
+  .showshop1 h4, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop h4, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop h4, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop h4, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop h4, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop h4, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop h4, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop h4, .nav .menu .menu_first .menu_list .muying .muying_show .showshop h4, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop h4, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop h4, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop h4, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop h4, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop h4, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop h4, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop h4 {
+    float: left;
+    width: 130px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold; }
+    .showshop1 h4 a, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop h4 a, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop h4 a, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop h4 a, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop h4 a, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop h4 a, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop h4 a, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop h4 a, .nav .menu .menu_first .menu_list .muying .muying_show .showshop h4 a, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop h4 a, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop h4 a, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop h4 a, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop h4 a, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop h4 a, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop h4 a, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop h4 a {
+      float: left;
+      color: red; }
+
+.showbtn1, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showbtn, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showbtn, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showbtn, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showbtn, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showbtn, .nav .menu .menu_first .menu_list .peishi .peishi_show .showbtn, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showbtn, .nav .menu .menu_first .menu_list .muying .muying_show .showbtn, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showbtn, .nav .menu .menu_first .menu_list .meishi .meishi_show .showbtn, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showbtn, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showbtn, .nav .menu .menu_first .menu_list .bangong .bangong_show .showbtn, .nav .menu .menu_first .menu_list .lipin .lipin_show .showbtn, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showbtn {
+  float: left;
+  margin: 10px 20px;
+  width: 590px;
+  height: 70px;
+  overflow: hidden; }
+  .showbtn1 a, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showbtn a, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showbtn a, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showbtn a, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showbtn a, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showbtn a, .nav .menu .menu_first .menu_list .peishi .peishi_show .showbtn a, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showbtn a, .nav .menu .menu_first .menu_list .muying .muying_show .showbtn a, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showbtn a, .nav .menu .menu_first .menu_list .meishi .meishi_show .showbtn a, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showbtn a, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showbtn a, .nav .menu .menu_first .menu_list .bangong .bangong_show .showbtn a, .nav .menu .menu_first .menu_list .lipin .lipin_show .showbtn a, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showbtn a {
+    float: left;
+    width: 115px;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px 10px 20px 55px;
+    background: red;
+    color: #fff; }
+
+.topline1 {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  height: 1px;
+  width: 0;
+  background: #000; }
+
+.rightline1 {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  height: 0;
+  width: 1px;
+  background: #000; }
+
+.bottomline1 {
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  height: 1px;
+  width: 0;
+  background: #000; }
+
+.leftline1 {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  height: 0;
+  width: 1px;
+  background: #000; }
+
+.toptxt_1 {
+  font-size: 13px;
+  color: #666;
+  display: inline-block;
+  position: relative;
+  left: 0; }
+  .toptxt_1 p {
+    height: 24px;
+    line-height: 24px; }
+  .toptxt_1 .p1 {
+    color: #000; }
+
+.right_menu1 {
+  position: fixed;
+  right: 0;
+  top: 30%;
+  width: 35px;
+  height: 235px;
+  z-index: 100; }
+  .right_menu1 .right_menu1_1 {
+    width: 35px;
+    height: 35px;
+    background-color: #333;
+    margin-bottom: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    cursor: pointer; }
+    .right_menu1 .right_menu1_1:hover {
+      background: #c69c6d; }
+    .right_menu1 .right_menu1_1 .menu1_cart span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -88px -156px; }
+      .right_menu1 .right_menu1_1 .menu1_cart span:hover {
+        background: url(../../imgs/index/share02.png) no-repeat -88px -121px; }
+    .right_menu1 .right_menu1_1 .menu_zichan span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -140px -154px; }
+      .right_menu1 .right_menu1_1 .menu_zichan span:hover {
+        background: url(../../imgs/index/share02.png) no-repeat -140px -124px; }
+    .right_menu1 .right_menu1_1 .menu_like span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -202px -155px; }
+      .right_menu1 .right_menu1_1 .menu_like span:hover {
+        background: url(../../imgs/index/share02.png) no-repeat -202px -126px; }
+    .right_menu1 .right_menu1_1 .menu_kefu span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -258px -125px; }
+    .right_menu1 .right_menu1_1 .active2 {
+      position: absolute;
+      top: 0;
+      right: 35px;
+      width: 99px;
+      height: 33px;
+      line-height: 33px;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #e4e4e4;
+      border-right: none;
+      font-size: 14px;
+      display: none; }
+      .right_menu1 .right_menu1_1 .active2 i {
+        display: block;
+        position: absolute;
+        right: -8px;
+        top: 10px;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        font-family: "\5b8b\4f53"; }
+
+.right_menu2 {
+  position: fixed;
+  right: 0;
+  bottom: -55px;
+  width: 35px;
+  height: 235px;
+  z-index: 100; }
+  .right_menu2 .right_menu2_1 {
+    width: 35px;
+    height: 35px;
+    background-color: #333;
+    margin-bottom: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    cursor: pointer; }
+    .right_menu2 .right_menu2_1:hover {
+      background: #c69c6d; }
+    .right_menu2 .right_menu2_1 .menu1_weixin span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -312px -155px; }
+      .right_menu2 .right_menu2_1 .menu1_weixin span:hover {
+        background: url(../../imgs/index/lux_index.png) no-repeat -475px -52px; }
+    .right_menu2 .right_menu2_1 .menu1_yijian span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -374px -157px; }
+      .right_menu2 .right_menu2_1 .menu1_yijian span:hover {
+        background: url(../../imgs/index/lux_index.png) no-repeat -124px -52px; }
+    .right_menu2 .right_menu2_1 .menu1_lianxi span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/line_bg.png) no-repeat 10px 9px; }
+      .right_menu2 .right_menu2_1 .menu1_lianxi span:hover {
+        background: url(../../imgs/index/line_bg.png) no-repeat 10px -19px; }
+    .right_menu2 .right_menu2_1 .menu1_weixin2 {
+      position: absolute;
+      right: 35px;
+      top: 1px;
+      display: none; }
+      .right_menu2 .right_menu2_1 .menu1_weixin2 i {
+        display: block;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        font-size: 16px;
+        right: -8px;
+        top: 10px;
+        color: #fff;
+        font-family: "\5b8b\4f53"; }
+    .right_menu2 .right_menu2_1 .menu1_top span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -437px -153px; }
+      .right_menu2 .right_menu2_1 .menu1_top span:hover {
+        background: url(../../imgs/index/lux_index.png) no-repeat -401px -52px; }
+    .right_menu2 .right_menu2_1 .active2 {
+      position: absolute;
+      top: 0;
+      right: 35px;
+      width: 99px;
+      height: 33px;
+      line-height: 33px;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #e4e4e4;
+      border-right: none;
+      font-size: 14px;
+      display: none; }
+      .right_menu2 .right_menu2_1 .active2 i {
+        display: block;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        font-size: 16px;
+        right: -8px;
+        top: 10px;
+        color: #fff;
+        font-family: "\5b8b\4f53"; }
+
+/*<!-----------------------导航栏------------------------->*/
+.nav {
+  height: 38px;
+  background: url("../../imgs/index/navi_1pxbg.png") repeat-x;
+  box-shadow: 0 4px 4px #c7c6c6; }
+  .nav .menu {
+    position: relative; }
+    .nav .menu .menu_first {
+      width: 130px;
+      background: #d00000;
+      color: #fff;
+      font-weight: bold; }
+      .nav .menu .menu_first .menu_list {
+        width: 130px;
+        height: 540px;
+        z-index: 100;
+        position: absolute;
+        top: 38px;
+        left: 0;
+        display: none; }
+        .nav .menu .menu_first .menu_list li {
+          width: 130px;
+          color: #000;
+          height: 36px;
+          position: relative;
+          background: #fff;
+          opacity: 0.85; }
+          .nav .menu .menu_first .menu_list li:hover {
+            opacity: 1;
+            color: #c2a67d; }
+          .nav .menu .menu_first .menu_list li span {
+            display: inline-block;
+            width: 56px;
+            padding-left: 20px; }
+          .nav .menu .menu_first .menu_list li .line {
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            top: 5px;
+            height: 36px;
+            width: 20px;
+            display: none;
+            background: url("../../imgs/index/share02.png") no-repeat -304px -33px; }
+        .nav .menu .menu_first .menu_list .tuijian {
+          opacity: 0.85;
+          position: relative;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 0; }
+          .nav .menu .menu_first .menu_list .tuijian:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 0; }
+          .nav .menu .menu_first .menu_list .tuijian .tuijian_show {
+            z-index: 100;
+            position: absolute;
+            top: 2px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            width: 800px;
+            display: none;
+            overflow: hidden; }
+        .nav .menu .menu_first .menu_list .xiangbao {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -32px; }
+          .nav .menu .menu_first .menu_list .xiangbao:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -32px; }
+          .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show {
+            z-index: 100;
+            position: absolute;
+            top: -30px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .meizhuang {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -64px; }
+          .nav .menu .menu_first .menu_list .meizhuang:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -64px; }
+          .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show {
+            z-index: 100;
+            position: absolute;
+            top: -50px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .fuzhuang {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -96px; }
+          .nav .menu .menu_first .menu_list .fuzhuang:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -96px; }
+          .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show {
+            z-index: 100;
+            position: absolute;
+            top: -60px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .wanbiao {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -128px; }
+          .nav .menu .menu_first .menu_list .wanbiao:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -128px; }
+          .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show {
+            z-index: 100;
+            position: absolute;
+            top: -50px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .peishi {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -160px; }
+          .nav .menu .menu_first .menu_list .peishi:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -160px; }
+          .nav .menu .menu_first .menu_list .peishi .peishi_show {
+            z-index: 100;
+            position: absolute;
+            top: -40px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .xiexue {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -192px; }
+          .nav .menu .menu_first .menu_list .xiexue:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -192px; }
+          .nav .menu .menu_first .menu_list .xiexue .xiexue_show {
+            z-index: 100;
+            position: absolute;
+            top: -30px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .muying {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -224px; }
+          .nav .menu .menu_first .menu_list .muying:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -224px; }
+          .nav .menu .menu_first .menu_list .muying .muying_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .meijiu {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -256px; }
+          .nav .menu .menu_first .menu_list .meijiu:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -256px; }
+          .nav .menu .menu_first .menu_list .meijiu .meijiu_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .meishi {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -288px; }
+          .nav .menu .menu_first .menu_list .meishi:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -288px; }
+          .nav .menu .menu_first .menu_list .meishi .meishi_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .jiaju {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -320px; }
+          .nav .menu .menu_first .menu_list .jiaju:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -320px; }
+          .nav .menu .menu_first .menu_list .jiaju .jiaju_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .dianzi {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -352px; }
+          .nav .menu .menu_first .menu_list .dianzi:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -352px; }
+          .nav .menu .menu_first .menu_list .dianzi .dianzi_show {
+            z-index: 100;
+            position: absolute;
+            top: -300px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .bangong {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -384px; }
+          .nav .menu .menu_first .menu_list .bangong:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -384px; }
+          .nav .menu .menu_first .menu_list .bangong .bangong_show {
+            z-index: 100;
+            position: absolute;
+            top: -300px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .lipin {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -416px; }
+          .nav .menu .menu_first .menu_list .lipin:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -416px; }
+          .nav .menu .menu_first .menu_list .lipin .lipin_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .haiwaiguan {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -448px; }
+          .nav .menu .menu_first .menu_list .haiwaiguan:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -448px; }
+          .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+    .nav .menu li.menu_last {
+      position: relative; }
+      .nav .menu li.menu_last .line_1 {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        width: 19px;
+        height: 38px;
+        background: url("../../imgs/index/share02.png") no-repeat -58px -169px; }
+        .nav .menu li.menu_last .line_1:hover {
+          background: url("../../imgs/index/share02.png") no-repeat -366px -252px; }
+      .nav .menu li.menu_last span {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 45px; }
+    .nav .menu li {
+      float: left;
+      font-size: 14px;
+      height: 38px;
+      line-height: 40px;
+      width: 82px;
+      text-align: center;
+      color: #c2a67d; }
+      .nav .menu li:hover {
+        color: #fff; }
+      .nav .menu li a {
+        display: inline-block;
+        width: inherit;
+        height: inherit; }
+    .nav .menu .menu_right {
+      position: absolute;
+      right: 15px;
+      top: 0;
+      height: 40px;
+      line-height: 40px;
+      overflow: hidden; }
+      .nav .menu .menu_right li {
+        float: left;
+        color: #fff;
+        width: 30px;
+        margin-right: 10px;
+        overflow: hidden; }
+        .nav .menu .menu_right li span {
+          display: inline-block;
+          width: 30px;
+          height: 40px;
+          margin-right: 3px;
+          float: left; }
+        .nav .menu .menu_right li i {
+          display: inline-block;
+          font-size: 12px;
+          float: left;
+          width: 110px;
+          height: 40px; }
+      .nav .menu .menu_right .a1 span {
+        background: url("../../imgs/index/share02.png") no-repeat -237px -66px; }
+      .nav .menu .menu_right .a2 span {
+        background: url("../../imgs/index/share02.png") no-repeat -296px -66px; }
+      .nav .menu .menu_right .a3 span {
+        background: url("../../imgs/index/share02.png") no-repeat -354px -66px; }
+
+.footbg {
+  border-top: 1px solid #c9c9c9;
+  height: 600px;
+  background: url("../../imgs/index/footer_message_bg.jpg") center; }
+  .footbg .foot .foot_top {
+    height: 117px;
+    border-bottom: 1px solid #c9c9c9;
+    overflow: hidden; }
+    .footbg .foot .foot_top dl {
+      float: left;
+      width: 230px;
+      height: 64px;
+      margin-top: 26px;
+      margin-right: 10px;
+      overflow: hidden; }
+      .footbg .foot .foot_top dl dt {
+        float: left;
+        width: 64px;
+        height: 64px;
+        margin-right: 10px;
+        margin-left: 5px; }
+        .footbg .foot .foot_top dl dt img {
+          display: block; }
+      .footbg .foot .foot_top dl .d1 {
+        height: 24px;
+        line-height: 24px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 5px; }
+      .footbg .foot .foot_top dl a:hover {
+        text-decoration: underline; }
+  .footbg .foot .foot_bottom {
+    height: 283px;
+    overflow: hidden; }
+    .footbg .foot .foot_bottom .foot_bottom1 {
+      float: left;
+      width: 170px; }
+      .footbg .foot .foot_bottom .foot_bottom1 .foot_bottom2 {
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+      .footbg .foot .foot_bottom .foot_bottom1 li {
+        height: 24px;
+        height: 24px;
+        line-height: 24px; }
+        .footbg .foot .foot_bottom .foot_bottom1 li a:hover {
+          text-decoration: underline; }
+  .footbg .foot .foot2 {
+    height: 177px;
+    text-align: center;
+    color: #fff; }
+    .footbg .foot .foot2 .foot2_1 {
+      height: 66px;
+      line-height: 66px;
+      color: #fff; }
+      .footbg .foot .foot2 .foot2_1 a:hover {
+        text-decoration: underline; }
+    .footbg .foot .foot2 .foot2_2 {
+      height: 48px;
+      line-height: 48px; }
+      .footbg .foot .foot2 .foot2_2 .foot2_2_1 {
+        height: 24px;
+        line-height: 24px;
+        color: #fff; }
+        .footbg .foot .foot2 .foot2_2 .foot2_2_1 a:hover {
+          text-decoration: underline; }
+    .footbg .foot .foot2 .foot2_3 {
+      height: 40px;
+      line-height: 40px;
+      margin-top: 23px; }
 
 /*# sourceMappingURL=common.css.map */

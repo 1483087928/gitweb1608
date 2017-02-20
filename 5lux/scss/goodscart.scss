@@ -1,0 +1,177 @@
+@charset "UTF-8";
+@import "common";
+
+.cart_box {
+    @extend .commonWidth;
+    .cart_box_1 {
+        width: 1190px;
+        margin: 0 auto;
+        overflow: hidden;
+        .cart_box_top {
+            background: url("../../imgs/goodscart/cart_step.jpg") no-repeat;
+            width: 700px;
+            height: 47px;
+            float: right;
+            margin: 30px 0;
+
+        }
+        .goodscart {
+            .sumPrice{
+                font-weight: bold;
+            }
+            .delete{
+                text-decoration: underline;
+            }
+            th {
+                height: 40px;
+                background: #ebeaea;
+                line-height: 40px;
+                text-align: center;
+                font-size: 14px;
+                font-weight: normal;
+
+            }
+            tr{
+               
+                border-top: 1px solid #ccc;
+                 border-bottom: 1px solid #ccc;
+                 td{
+                     text-align: center; 
+                 }
+            }
+            .allcheck {
+                margin-right: 10px;
+            }
+            .goodImg {
+             
+                img {
+                    display: block;
+                    width: 95px;
+                    height: 95px;
+                }
+            }
+            .allcheck1 {
+                margin-right: 10px;
+            }
+            .td_nums1 {
+                height: 24px;
+                line-height: 24px;
+                width: 94px;
+                margin: 0 auto;
+
+                overflow: hidden;
+                .nums1 {
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    height: 20px;
+                    width: 46px;
+                    text-align: center;
+                    float: left;
+
+                }
+                .jian1 {
+                    float: left;
+                    display: inline-block;
+                    width: 22px;
+                    height: 22px;
+                    line-height: 22px;
+                    margin: 0 1px;
+                    text-align: center;
+                    color: #fff;
+
+                    cursor: pointer;
+                    background: url("../../imgs/shangpinxiangqing/brandstore_share.png") #c8a985 no-repeat -311px -292px;
+                }
+                .add1 {
+                    float: left;
+                    display: inline-block;
+                    width: 22px;
+                    height: 22px;
+                    line-height: 22px;
+
+                    text-align: center;
+                    color: #fff;
+                    cursor: pointer;
+                    background: url("../../imgs/shangpinxiangqing/brandstore_share.png") #c8a985 no-repeat -268px -292px;
+                }
+            }
+
+        }
+        .backhome {
+            text-align: center;
+          
+            span {
+                display: block;
+
+            }
+            .backhome_1 {
+                margin-top: 70px;
+                height: 24px;
+                font-size: 18px;
+            }
+            .backhome_2 {
+                margin: 20px 0;
+                text-align: center;
+                a {
+                    display: block;
+                    width: 98px;
+                    height: 28px;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #fff;
+                    background: #d00000;
+                    border: 1px solid #d00000;
+                    font-size: 14px;
+                    border-radius: 2px;
+                    margin: 0 auto;
+                    &:hover {
+                        color: #666;
+                        background: #fff;
+                    }
+                }
+            }
+        }
+        .cart_bottom {
+            padding-top: 35px;
+            padding-bottom: 20px;
+            overflow: hidden;
+            height: 35px;
+            line-height: 35px;
+            color: #666;
+            .cart_bottom_left {
+                float: left;
+                .cart_bottom_left_1 {
+                    margin-left: 10px;
+                }
+                a {
+                    margin-left: 10px;
+                }
+            }
+            .cart_bottom_right {
+                float: right;
+                .cart_bottom_right_1 {
+                    margin-right: 10px;
+                }
+                .shuliang {
+                    color: #d32424;
+                    padding-left: 5px;
+                }
+                b {
+                    font-size: 20px;
+                    color: #d73128;
+                    margin: 0 10px;
+                }
+                .maidan {
+                    display: inline-block;
+                    width: 136px;
+                    height: 35px;
+                    line-height: 35px;
+                    background: #d31920;
+                    color: #fff;
+                    text-align: center;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

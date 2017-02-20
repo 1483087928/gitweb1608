@@ -1,9 +1,116 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="scss/css/denglu.css" />
+		<link rel="stylesheet" type="text/css" href="scss/css/common.css" />
+		<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/denglu.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(".footbg").load("bottomload.html");
+			});
+		</script>
 	</head>
+
 	<body>
+		<!------------右侧悬浮框--------------------->
+		<div class="right_menu1">
+			<div class="right_menu1_1">
+				<div class="menu1_cart"><span></span></div>
+			</div>
+			<div class="right_menu1_1">
+				<div class="menu_zichan"><span></span></div>
+				<div class="active2">我的资产<i>◆</i></div>
+			</div>
+			<div class="right_menu1_1">
+				<div class="menu_like"><span></span></div>
+				<div class="active2">我喜欢的商品<i>◆</i></div>
+			</div>
+			<div class="right_menu1_1">
+				<div class="menu_kefu"><span></span></div>
+				<div class="active2">联系客服<i>◆</i></div>
+			</div>
+		</div>
+		<div class="right_menu2">
+			<div class="right_menu2_1">
+				<div class="menu1_weixin"><span></span></div>
+				<div class="menu1_weixin2"><img src="imgs/index/weixin_img.png" /><i>◆</i></div>
+			</div>
+			<div class="right_menu2_1">
+				<div class="menu1_yijian"><span></span></div>
+				<div class="active2">意见反馈<i>◆</i></div>
+			</div>
+			<div class="right_menu2_1">
+				<div class="menu1_lianxi"><span></span></div>
+				<div class="active2">联系我们<i>◆</i></div>
+			</div>
+			<div class="right_menu2_1">
+				<div class="menu1_top"><span></span></div>
+				<div class="active2">返回顶部<i>◆</i></div>
+			</div>
+		</div>
+		<div class="log_1">
+			<div class="top1">
+				<a href="###"><img src="imgs/denglu/v30_5luxlogo.png" /></a>
+				<span class="top_1">欢迎登录</span>
+				<div class="top1_bottom">
+					<img src="imgs/denglu/8-132_03.jpg" />
+					<span class="top1_bottom2">客服热线4008-6767-38</span>
+				</div>
+			</div>
+		</div>
+		<div class="bg_1">
+			<div class="bg_1_1">
+				<div class="bg_1_1_1">
+					<img src="imgs/denglu/mobile-icon.png" />
+				</div>
+				<div class="bg_right">
+					<div class="box1_1">
+						<!--<form action="http://localhost/regSave.php" method="post">-->
+						<form >
+							<p class="box1_title">登录第五大道</p>
+							<div class="zhanghao">
+
+								<input type="text" name="username" placeholder="用户名/Email/手机号" id="userId"/>
+								<span class="zhanghao_2"></span>
+							</div>
+							<div class="pass">
+
+								<input id="passId" type="password" name="password" placeholder="请输入密码" />
+								<sapn class="pass_2"></sapn>
+							</div>
+							<div class="zidong">
+								<input type="checkbox" class="checkbtn" />
+								<span>记住我（下次自动登录)</span>
+								<a href="###">忘记密码?</a>
+							</div>
+							<input class="subbtn" type="button" value="登录" />
+							<div class="box1_2">
+								<span class="box1_2_left">还没有帐号？</span>
+								<a href="zhuce.html">立即注册</a>
+							</div>
+							<div class="hezuo">
+								<p>合作网站帐号登录：</p>
+								<a href="###"><img src="imgs/denglu/qq.jpg" /></a>
+								<a href="###"><img src="imgs/denglu/xinlang.jpg" /></a>
+								<a href="###"><img src="imgs/denglu/weixin.jpg" /></a>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="footbg">
+
+		</div>
+
 	</body>
+
 </html>

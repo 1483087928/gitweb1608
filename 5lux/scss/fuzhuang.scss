@@ -1,0 +1,368 @@
+@charset "UTF-8";
+@import "common";
+
+.fuzhuang_top1 {
+    @extend .commonWidth;
+    .fuzhuang_top2 {
+        @extend .Width;
+        .fuzhuang_title {
+            height: 43px;
+            line-height: 43px;
+            width: 56px;
+            text-align: center;
+            padding: 10px 8px 0;
+            color: #79502d;
+            &:hover {
+                color: #000;
+                cursor: pointer;
+            }
+        }
+        .fuzhuang_list {
+            border: 1px solid #bfbfbf;
+            .fuzhuang_pinpai {
+                background: #ebebeb;
+                overflow: hidden;
+                .fuzhuang_pinpai_1 {
+                    float: left;
+                    width: 130px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: left;
+                    text-indent: 20px;
+                    color: #6e3e0e;
+                    font-size: 13px;
+                    font-weight: bold;
+                    background: #ebebeb;
+                }
+                .fuzhuang_pinpai_2 {
+                    float: left;
+                    width: 1077px;
+                    padding-bottom: 10px;
+                    background: #fff;
+                    .fuzhuang_pinpai_2_1 {
+                        padding: 11px 10px;
+                        font-size: 13px;
+                        border-bottom: 1px solid #e7e7e7;
+                        li {
+                            display: inline-block;
+                            width: 25px;
+                            height: 22px;
+                            line-height: 22px;
+                            text-align: center;
+                            font-size: 13px;
+                            cursor: pointer;
+                        }
+                        .active_5 {
+                            background: #c69c6d;
+                        }
+                        .pinpai_2_1 {
+                            width: 75px;
+                            height: 22px;
+                            line-height: 22px;
+                            padding: 0 7px;
+                        }
+                        .more_1 {
+                            display: inline-block;
+                            width: 50px;
+                            height: 22px;
+                            line-height: 22px;
+                            text-align: center;
+                            margin-left: 30px;
+                            background: #c6c4c4;
+                            color: #757272;
+                            &:hover {
+                                color: #c69c6d;
+                            }
+                        }
+                    }
+                    .fuzhuang_pinpai_2_2 {
+                        position: relative;
+                        li {
+                            padding-left: 10px;
+                            display: none;
+                            overflow: auto;
+                            max-height: 200px;
+                            
+                            a{
+                                display: inline-block;
+                                margin: 10px 10px;
+                                color: #6e3e0e;                                                            
+                                padding: 0px 7px;
+                                line-height: 22px;
+                                vertical-align: middle;
+                                min-height: 40px;
+                                position: relative;                               
+                                &:hover{
+                                    background: #c69c6d;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .fuzhuang_fuzhuang {
+                height: 239px;
+                .fuzhuang_fuzhuang_1 {
+                    float: left;
+                    width: 130px;
+                    height: 239px;
+                    line-height: 40px;
+                    text-align: left;
+                    text-indent: 20px;
+                    font-size: 13px;
+                    font-weight: bold;
+                    background: #ebebeb;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+                .fuzhuang_fuzhuang_2 {
+                    float: left;
+                    width: 1077px;
+                    .fuzhuang_right_1 {
+                        border-bottom: 1px solid #e7e7e7;
+                        overflow: hidden;
+                        .fuzhuang_2_1 {
+                            float: left;
+                            margin: 0 20px;
+                            font-size: 14px;
+                            width: 38px;
+                            height: 40px;
+                            text-align: center;
+                            line-height: 40px;
+                            color: #6e3e0e;
+                            font-weight: bold;
+                            &:hover {
+                                background: #c69c6d;
+                                color: #fff;
+                            }
+                        }
+                        .fuzhuang_2_2 {
+                            float: left;
+                            width: 788px;
+
+                            a {
+                                display: inline-block;
+                                padding: 0 10px;
+                                height: 29px;
+                                line-height: 29px;
+                                text-align: center;
+                                color: #c69c6d;
+                                margin: 4px 5px;
+                                &:hover {
+                                    background: #c69c6d;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                    .fuzhuang_right_2 {
+                        @extend .fuzhuang_right_1;
+                    }
+                }
+            }
+            .fuzhuang_price {
+                overflow: hidden;
+                .fuzhuang_price_1 {
+                    float: left;
+                    width: 130px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: left;
+                    text-indent: 20px;
+                    color: #6e3e0e;
+                    font-size: 13px;
+                    font-weight: bold;
+                    background: #ebebeb;
+                }
+                .fuzhuang_price_2 {
+                    float: left;
+                    .price_2_1 {
+                        display: inline-block;
+                        margin: 8px 5px 0 20px;
+                        width: 38px;
+                        height: 24px;
+                        text-align: center;
+                        line-height: 24px;
+                        background: #c69c6d;
+                        color: #fff;
+                        font-weight: bold;
+                    }
+                    .price_2_2 {
+                        display: inline-block;
+                        a {
+                            display: inline-block;
+                            padding: 0 10px;
+                            height: 29px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #6e3e0e;
+                            margin: 4px 5px;
+                            &:hover {
+                                background: #c69c6d;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+
+            }
+            .fuzhuang_dizhi {
+                @extend .fuzhuang_price;
+            }
+            .fuzhuang_poper {
+                @extend .fuzhuang_price;
+                .fuzhuang_price_1 {
+                    height: 55px;
+                }
+                .fuzhuang_price_2 {
+                    height: 55px;
+                }
+            }
+        }
+        .search_title {
+            margin-top: 10px;
+            padding: 9px;
+            background: #f2f2f2;
+            color: #666;
+            font-size: 13px;
+            overflow: hidden;
+            position: relative;
+            .search_title_left {
+                float: left;
+                height: 25px;
+                line-height: 25px;
+                background: #FFFFFF;
+                border: 1px solid #c9c9c9;
+                width: 310px;
+                li {
+                    float: left;
+                    width: 50px;
+                    position: relative;
+                    font-size: 13px;
+                    padding-left: 10px;
+                    border-right: 1px solid #c9c9c9;
+                    cursor: pointer;
+                    &:hover {
+                        color: #b28247;
+                    }
+                }
+                .title_left_1 {
+                    background: #c69c6d;
+                    color: #fff;
+                    position: relative;
+                    &:hover {
+                        color: #fff;
+                    }
+                    i {
+                        display: block;
+                        width: 10px;
+                        height: 25px;
+                        line-height: 24px;
+                        position: absolute;
+                        top: 0;
+                        left: 40px;
+                        background: url("../../imgs/fuzhuang/brandstore_share.png") no-repeat -314px -230px;
+                    }
+                }
+                .title_left_5 {
+                    width: 55px;
+                    b {
+                        display: block;
+                        width: 10px;
+                        height: 27px;
+                        line-height: 27px;
+                        position: absolute;
+                        top: 0;
+                        left: 40px;
+                        background: url("../../imgs/fuzhuang/brandstore_share.png") no-repeat -274px -230px;
+                    }
+                }
+            }
+            .search_title_right {
+               position: absolute;
+               right: 20px;
+               top: 10;              
+                height: 27px;
+                line-height: 27px;
+               b{
+                  display: inline-block;
+                  width: 22px;
+                  height: 22px;
+                  text-align: center;
+                  line-height: 22px;
+                  border: 1px solid #c9c9c9;
+                  margin-left: 10px;  
+                }
+                
+                
+            }
+        }
+        .fuzhuang_img_1 {
+            margin-top: 10px;
+            ul {
+                overflow: hidden;
+                li {
+                    float: left;
+                    width: 270px;
+                    height: 460px;                
+                    padding: 10px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    &:hover{
+                       background: #f2f2f2;
+                    }
+                    .goodimg{
+                        width: 267px;
+                        height: 310px;
+                        background: #fff;
+                        img{
+                             width: 267px;
+                             height: 267px;
+                        }
+                    }
+                    .goodxinxi{
+                        height: 130px;
+                        width: 270px;
+                        background: #fff;
+                        p{
+                            height: 24px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+
+        }
+        .bottom_fanye{
+            width: 1000px;
+            margin: 30px auto;
+            text-align: center;
+            line-height: 33px;
+            li{
+                display: inline-block;
+                font-size: 14px;
+                font-weight: bold;
+                height: 30px;
+                width: 40px;
+                text-align: center;
+                line-height: 30px;
+                border: 1px solid #c69c6d;
+                color: #666;
+                margin: 0 2px;
+                cursor: pointer;
+                &:hover{
+                    background: #c69c6d;
+                    color: #fff;
+                }
+            }
+            .bottom_fanye_1{
+                width: 56px;
+            }
+            .active_6{
+                background: #c69c6d;
+                color: #fff;
+            }
+        }
+    }
+}

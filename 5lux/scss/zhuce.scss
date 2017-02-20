@@ -1,0 +1,259 @@
+@charset "UTF-8";
+@import "common";
+
+.log_1 {
+    width: 100%;
+    .top1 {
+        height: 100px;
+        width: 1000px;
+        margin: 0 auto;
+        overflow: hidden;
+        height: 89px;
+        margin-top: 10px;
+        position: relative;
+        img {
+            float: left;
+        }
+        .top_1 {
+            float: left;
+            font-size: 18px;
+            color: rgb(148, 146, 146);
+            margin-left: 10px;
+            height: 82px;
+            width: 82px;
+            line-height: 82px;
+        }
+        .top1_bottom {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 27px;
+            line-height: 27px;
+            .top1_bottom2 {
+                font-size: 15px;
+
+            }
+        }
+    }
+}
+
+.bg_1 {
+    width: 100%;
+    height: 680px;
+    margin: 0 auto;
+    background: url("../../imgs/denglu/zhuce-bg.jpg") no-repeat;
+    .bg_1_1 {
+        width: 1000px;
+        height: 680px;
+        margin: 0 auto;
+        position: relative;
+        .bg_1_1_1 {
+            position: absolute;
+            top: 0;
+            left: -130px;
+            img{
+                width: 690px;
+                height: 680px;
+            }
+        }
+        .bg_right {
+            position: absolute;
+            top: 47px;
+            margin-left: 10px;
+            right: 0;
+            width: 450px;
+            height: 592px;
+            background: #fff;
+            box-shadow: #afabab 0 0 8px;
+            .box1_1 {
+                width: 330px;
+                margin: 15px auto;
+                .box1_title {                   
+                    border-bottom: 1px solid #CCC;                   
+                    span{
+                        display: block;
+                        height: 29px;
+                    line-height: 29px;
+                    border-top-left-radius: 5px 5px;border-top-right-radius: 5px 5px;
+                    text-align: center;
+                   margin-bottom: 1px;
+                    color: #fff;
+                    background: #000;
+                    width: 120px; 
+                    }
+                }
+               .lab{
+                        width: 72px;
+                        height: 32px;
+                        line-height: 32px;
+                        float: left;
+                        text-align: right;
+                       
+                    }                 
+                .zhanghao {
+                    
+                    margin-top: 32px;
+                    width: 330px;
+                    height: 64px; 
+                    position: relative;                  
+                    input {
+                        float: left;
+                        width: 200px;
+                        height: 32px;
+                        line-height: 32px;
+                        border: 1px solid #ccc;
+                        
+                       
+                    }
+                    .zhanghao_2 {
+                        float: left;
+                        height: 34px;
+                        color: red;                       
+                        width: 200px;
+                        margin-left: 72px;
+                        
+                    }
+                    .checkcodes{
+                        display: block;
+                        position: absolute;
+                        right: -20px;
+                        top: 3px;
+                        width: 70px;
+                        height: 25px;
+                        line-height: 25px;
+                        text-align: center;
+                        cursor: pointer;
+                        border: 1px solid #ccc;
+                        &:hover{
+                            color: #fff;
+                            background: #a78668;
+                        }
+                    }
+                }
+                .zhanghaopass{                    
+                    width: 330px;
+                    height: 64px;
+                                
+                    input {
+                        width: 200px;
+                        height: 32px;
+                        line-height: 32px;
+                        border: 1px solid #ccc;
+                        
+                       
+                    }
+                    .zhanghaopass_2 {
+                        float: left;
+                        height: 34px;
+                        color: red;                       
+                        width: 200px;
+                        margin-left: 72px;
+                    }
+                }
+                .pass {
+                    width: 330px;
+                    height: 64px;
+                  
+                     
+                    input {
+                        width: 200px;
+                        height: 32px;
+                        line-height: 32px;
+                       
+                        border: 1px solid #ccc;
+                    }
+                    .pass_2 {
+                        float: left;
+                        height: 34px;
+                        color: red;                       
+                        width: 200px;
+                        margin-left: 72px;
+                    }
+                }
+                .checkPass {
+                    width: 330px;
+                    height: 64px;
+                    
+                     
+                    input {
+                        width: 200px;
+                        height: 32px;
+                        line-height: 32px;
+                        
+                        border: 1px solid #ccc;
+                    }
+                    .checkPass_2 {
+                        float: left;
+                        height: 34px;
+                        color: red;                       
+                        width: 200px;
+                        margin-left: 72px;
+                    }
+                }
+                .zidong {
+                    width: 330px;
+                    height: 24px;
+                    line-height: 24px;                 
+                    margin-left: 55px;
+                    margin-bottom: 10px;
+                    overflow: hidden;                   
+                    input {
+                         float: left;                  
+                        margin-right: 5px;
+                        margin-top: 5px;
+                    }
+                    span {
+                       color: #000;
+                        float: left;
+                    }
+
+                    a {                     
+                      
+                        color:#000;
+                        
+                        &:hover{
+                            color:#a78668;
+                        }
+                    }
+                }
+                .subbtn{
+                    width: 200px;
+                    height: 30px;
+                    line-height: 30px;
+                    color: #fff;
+                    background: #cf0101;
+                    border: 0;
+                    margin-left: 70px;
+                    margin-top: 10px;
+                    font-size: 16px;
+                    cursor: pointer;                                  
+                }
+                .box1_2{
+                    text-align: right;
+                    padding: 30px 30px 20px 0;
+                    border-bottom: #ccc solid 1px;
+                    a{
+                        text-decoration: underline;
+                        color: #a78668;
+                        margin-left: 10px;
+                    }
+                }
+                
+                .box1_3{
+                   margin-top: 40px;
+                   margin-bottom: 10px;
+                   width: 330px;
+                   
+                   text-align: center;
+                   span{
+                       color: red;
+                   }
+                    
+                }
+                   
+                
+            }
+        }
+
+    }
+}

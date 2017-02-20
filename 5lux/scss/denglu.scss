@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@import "common";
+
+.log_1 {
+    width: 100%;
+    .top1 {
+        height: 100px;
+        width: 1000px;
+        margin: 0 auto;
+        overflow: hidden;
+        height: 89px;
+        margin-top: 10px;
+        position: relative;
+        img {
+            float: left;
+        }
+        .top_1 {
+            float: left;
+            font-size: 18px;
+            color: rgb(148, 146, 146);
+            margin-left: 10px;
+            height: 82px;
+            width: 82px;
+            line-height: 82px;
+        }
+        .top1_bottom {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 27px;
+            line-height: 27px;
+            .top1_bottom2 {
+                font-size: 15px;
+
+            }
+        }
+    }
+}
+
+.bg_1 {
+    width: 100%;
+    height: 570px;
+    margin: 0 auto;
+    background: url("../../imgs/denglu/mobile-bg.jpg") no-repeat;
+    .bg_1_1 {
+        width: 1000px;
+        height: 570px;
+        margin: 0 auto;
+        position: relative;
+        .bg_1_1_1 {
+            position: absolute;
+            top: 0;
+            left: -150px;
+            img{
+                height: 570px;
+            }
+        }
+        .bg_right {
+            position: absolute;
+            top: 47px;
+            margin-left: 10px;
+            right: 0;
+            width: 450px;
+            height: 499px;
+            background: #fff;
+            box-shadow: #afabab 0 0 8px;
+            .box1_1 {
+                width: 300px;
+                margin: 45px auto;
+                .box1_title {
+                    font-size: 15px;
+                    color: #6d6d6d;
+                    border-bottom: 1px solid #CCC;
+                    padding-bottom: 12px;
+                    text-align: left;
+                }
+                .zhanghao {
+                    margin-top: 32px;
+                    width: 252px;
+                    height: 64px;
+                    margin-left: 25px;
+                  
+                    input {
+                        width: 250px;
+                        height: 32px;
+                        line-height: 32px;
+                        border: 1px solid #ccc;
+                         background: url(../../imgs/denglu/login_reg_input_user_bg.jpg) no-repeat;
+                         text-indent: 35px;
+                    }
+                    .zhanghao_2 {
+                        color: red;
+                    }
+                }
+                .pass {
+                    width: 252px;
+                    height: 64px;
+                    margin-left: 25px;
+                     
+                    input {
+                        width: 250px;
+                        height: 32px;
+                        line-height: 32px;
+                        background: url(../../imgs/denglu/login_reg_input_pw_bg.jpg) no-repeat;
+                         text-indent: 35px;
+                        border: 1px solid #ccc;
+                    }
+                    .pass_2 {
+                        color: red;
+                    }
+                }
+                .zidong {
+                    width: 252px;
+                    height: 24px;
+                    line-height: 24px;                 
+                    margin-left: 25px;
+                    margin-bottom: 10px;
+                    overflow: hidden;                   
+                    input {
+                         float: left;                  
+                        margin-right: 5px;
+                        margin-top: 5px;
+                    }
+                    span {
+                       color: #000;
+                        float: left;
+                    }
+
+                    a {                     
+                        margin-left: 25px;
+                        color: #a78668;
+                        text-decoration: underline;
+                    }
+                }
+                .subbtn{
+                    width: 250px;
+                    height: 30px;
+                    line-height: 30px;
+                    color: #fff;
+                    background: #cf0101;
+                    border: 0;
+                    margin-left: 25px;
+                    margin-top: 10px;
+                    font-size: 16px;                                  
+                }
+                .box1_2{
+                    text-align: right;
+                    padding: 20px 25px 20px 0;
+                    border-bottom: #ccc solid 1px;
+                    a{
+                        text-decoration: underline;
+                        color: #a78668;
+                        margin-left: 10px;
+                    }
+                }
+                .hezuo{
+                    padding-top: 20px;
+                    text-align: center;
+                    p{
+                       height: 24px;
+                       text-align: left;
+                        margin-left: 25px;
+                    }
+                   
+                }
+            }
+        }
+
+    }
+}

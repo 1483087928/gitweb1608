@@ -3,7 +3,247 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="scss/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="scss/css/common.css" />
+		<link rel="stylesheet" type="text/css" href="scss/css/goodscart.css"/>
+		<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/goodscart.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(".nav").load("topload.html");
+				$(".footbg").load("bottomload.html");
+			});
+		</script>
 	</head>
 	<body>
+		<!------------右侧悬浮框--------------------->
+		<div class="right_menu1">
+			<div class="right_menu1_1">
+				<div class="menu1_cart"><span></span></div>
+			</div>
+			<div class="right_menu1_1">
+				<div class="menu_zichan"><span></span></div>
+				<div class="active2">我的资产<i>◆</i></div>
+			</div>
+			<div class="right_menu1_1">
+				<div class="menu_like"><span></span></div>
+				<div class="active2">我喜欢的商品<i>◆</i></div>
+			</div>
+			<div class="right_menu1_1">
+				<div class="menu_kefu"><span></span></div>
+				<div class="active2">联系客服<i>◆</i></div>
+			</div>
+		</div>
+		<div class="right_menu2">
+			<div class="right_menu2_1">
+				<div class="menu1_weixin"><span></span></div>
+				<div class="menu1_weixin2"><img src="imgs/index/weixin_img.png" /><i>◆</i></div>
+			</div>
+			<div class="right_menu2_1">
+				<div class="menu1_yijian"><span></span></div>
+				<div class="active2">意见反馈<i>◆</i></div>
+			</div>
+			<div class="right_menu2_1">
+				<div class="menu1_lianxi"><span></span></div>
+				<div class="active2">联系我们<i>◆</i></div>
+			</div>
+			<div class="right_menu2_1">
+				<div class="menu1_top"><span></span></div>
+				<div class="active2">返回顶部<i>◆</i></div>
+			</div>
+		</div>
+		
+
+		<!-------------------------顶部赔偿栏----------------------------->
+		<div class="top_img">
+			<img src="imgs/index/147857457032_1300x80.jpg" />
+		</div>
+		<div class="top_tc">
+			<div class="top_click">
+				<a href="###" class="top_close"></a>
+				<img src="imgs/index/pctankuang.PNG" />
+			</div>
+		</div>
+		<!-------------------------登录栏---------------------------->
+		<div class="deng">
+			<div class="deng_top">
+				<div class="deng_left">
+					<a href="index.html" class="home">
+						<img src="imgs/index/home.png" /> 第五大道首页
+					</a>丨
+					<a href="###" class="call"><span></span>贵宾专线：400-660-5610</a>
+				</div>
+				<ul class="deng_right">
+					<li class="denglu">
+						<a href="denglu.html" class="userName">登录</a>
+					</li>
+					<li class="zhuce">
+						<a href="zhuce.html">注册</a>
+					</li>
+					<li class="my5lux">
+						<a href="###"><span>我的第五大道</span></a>
+						<ul class="mylist">
+							<li>
+								<a href="###">我的订单</a>
+							</li>
+							<li>
+								<a href="###">我的收藏</a>
+							</li>
+							<li>
+								<a href="###">已购商品</a>
+							</li>
+							<li>
+								<a href="###">我的礼券</a>
+							</li>
+							<li>
+								<a href="###">我的积分</a>
+							</li>
+						</ul>
+					</li>
+					<li class="help">
+						<a href="###">帮助中心</a>
+					</li>
+					<li class="phone" href="###">
+						<a href="###"><span>手机版下载</span></a>
+						<ul class="qr">
+							<li>
+								<a href="###"><img src="imgs/index/qr.jpg" /></a>
+							</li>
+							<li>扫码下载APP</li>
+							<li>立即
+								<a href="###"><i>赠送50元</i></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- -------------------logo------------------------------------------->
+		<div class="logo">
+			<div class="lg">
+				<div class="logo1">
+					<a href="###"><img src="imgs/index/logo.jpg" /></a>
+				</div>
+				<div class="logo2">
+					<a href="###"><img src="imgs/index/yijian.jpg" /></a>
+				</div>
+				<div class="search">
+					<form action="" method="get">
+						<input class="search_input" type="input" placeholder="雪地靴" />
+						<input type="button" value="搜 索" class="but">
+					</form>
+					<ul class="search_list">
+						<li>
+							<a href="##">羽绒服</a>
+						</li>
+						<li>
+							<a href="##">围巾</a>
+						</li>
+						<li>
+							<a href="##">箱包</a>
+						</li>
+						<li>
+							<a href="##">箱包</a>
+						</li>
+					</ul>
+				</div>
+				<div class="logocart">
+					<img src="imgs/index/v30cart.png" />
+					<span>
+						<a href="goodcart.html"> 购物袋 ( <i>0</i> )</a>						
+					</span>
+					<div class="cartbox">
+						<p>购物车里暂时没有商品,</p>
+						<p>选择心爱的商品吧!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-----------------------导航栏------------------------->						
+		<div class="nav">
+		</div>
+		
+		<div class="cart_box">
+			<div class="cart_box_1">
+				<p class="cart_box_top"></p>
+				<table width="1190" class="goodscart" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<th width="88"><input type="checkbox" class="allcheck" />全选</th>
+						<th width="95">商品图片</th>
+						<th width="223">商品名称</th>
+						<th width="106">商品属性</th>
+						<th width="162">购物价</th>
+						<th width="138">购买数量</th>
+						<th width="138">活动信息</th>
+						<th width="167">小计</th>
+						<th width="73">操作</th>						
+					</tr>
+					<tr>
+						<td><input type="checkbox" class="allcheck1"/>选择</td>
+						<td class="goodImg"><a href="###"><img src="imgs/goodscart/148198539160_750x750.JPG"/></a></td>
+						<td class="goodName">浅灰色男士T恤DG1630982792</td>
+						<td class="goodColor">48,灰色系</td>
+						<td class="goodPrice">100</td>
+						<td>
+							<p class="td_nums1">
+								<span class="jian1"></span>
+								<input type="text" class="nums1" value="1"/>
+								<span class="add1"></span>
+							</p>
+						</td>
+						<td class="goodActive"></td>
+						<td class="sumPrice">100</td>
+						<td >
+							<a href="###" class="delete">删除</a>
+						</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" class="allcheck1"/>选择</td>
+						<td class="goodImg"><a href="###"><img src="imgs/goodscart/148198539160_750x750.JPG"/></a></td>
+						<td class="goodName">浅灰色男士T恤DG1630982792</td>
+						<td class="goodColor">48,灰色系</td>
+						<td class="goodPrice">100</td>
+						<td>
+							<p class="td_nums1">
+								<span class="jian1"></span>
+								<input type="text" class="nums1" value="1"/>
+								<span class="add1"></span>
+							</p>
+						</td>
+						<td class="goodActive"></td>
+						<td class="sumPrice">100</td>
+						<td >
+							<a href="###" class="delete">删除</a>
+						</td>
+					</tr>
+				</table>
+				<div class="backhome" style="display: none;">
+					<span class="backhome_1">您还没有购买商品哦</span>
+					<span class="backhome_2"><a href="index.html">去首页看看>></a></span>
+				</div>
+				<div class="cart_bottom">
+					<div class="cart_bottom_left">
+						<input class="cart_bottom_left_1 allcheck" type="checkbox" />全选
+						<a href="###">继续购物</a>丨
+						<a href="###">清空购物车</a>						
+					</div>
+					<div class="cart_bottom_right">
+						<span class="cart_bottom_right_1">已选商品 : <i class="shuliang">0</i>件</span>
+						<span>商品总金额(不含运费)：</span>
+						<b class="goodSumPrice">￥0.00</b>
+						<span class="maidan">点击结算</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-----------------底部------------------------>
+		<div class="footbg">
+
+		</div>
 	</body>
+	
 </html>

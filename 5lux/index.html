@@ -1,101 +1,159 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="scss/css/index.css"/>
-		<link rel="stylesheet" type="text/css" href="scss/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="scss/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="scss/css/common.css" />
 		<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(".nav").load("topload.html");
+				$(".footbg").load("bottomload.html");
+			});
+		</script>
 	</head>
+
 	<body>
+		<!------------右侧悬浮框--------------------->
+		<div class="right_menu1">
+			<div class="right_menu1_1">
+				<div class="menu1_cart"><span></span></div>
+			</div>
+			<div class="right_menu1_1">
+				<div class="menu_zichan"><span></span></div>
+				<div class="active2">我的资产<i>◆</i></div>
+			</div>
+			<div class="right_menu1_1">
+				<div class="menu_like"><span></span></div>
+				<div class="active2">我喜欢的商品<i>◆</i></div>
+			</div>
+			<div class="right_menu1_1">
+				<div class="menu_kefu"><span></span></div>
+				<div class="active2">联系客服<i>◆</i></div>
+			</div>
+		</div>
+		<div class="right_menu2">
+			<div class="right_menu2_1">
+				<div class="menu1_weixin"><span></span></div>
+				<div class="menu1_weixin2"><img src="imgs/index/weixin_img.png" /><i>◆</i></div>
+			</div>
+			<div class="right_menu2_1">
+				<div class="menu1_yijian"><span></span></div>
+				<div class="active2">意见反馈<i>◆</i></div>
+			</div>
+			<div class="right_menu2_1">
+				<div class="menu1_lianxi"><span></span></div>
+				<div class="active2">联系我们<i>◆</i></div>
+			</div>
+			<div class="right_menu2_1">
+				<div class="menu1_top"><span></span></div>
+				<div class="active2">返回顶部<i>◆</i></div>
+			</div>
+		</div>
 		<!-------------------------打开页面的弹窗------------------------->
 		<div class="tan_tc">
 			<div class="tan_open">
 				<a href="###" class="tan_close"></a>
-				<a href="###"><img src="imgs/index/148636183568_920x560.jpg"/></a>
-			</div>									
+				<a href="###"><img src="imgs/index/148636183568_920x560.jpg" /></a>
+			</div>
 		</div>
-		<!-------------------------页面底部固定的透明层------------------------->
-		
+
 		<!-------------------------顶部赔偿栏----------------------------->
-		<div class="top">
-			<img src="imgs/index/147857457032_1300x80.jpg"/>
+		<div class="top_img">
+			<img src="imgs/index/147857457032_1300x80.jpg" />
 		</div>
 		<div class="top_tc">
 			<div class="top_click">
 				<a href="###" class="top_close"></a>
-				<img src="imgs/index/pctankuang.PNG"/>
+				<img src="imgs/index/pctankuang.PNG" />
 			</div>
 		</div>
 		<!-------------------------登录栏---------------------------->
 		<div class="deng">
-			<div class="deng_top">							
-				<div class="deng_left">					
+			<div class="deng_top">
+				<div class="deng_left">
 					<a href="index.html" class="home">
-						<img src="imgs/index/home.png"/>
-						第五大道首页
-					</a>丨														
-					<a href="###" class="call"><span></span>贵宾专线：400-660-5610</a>									
+						<img src="imgs/index/home.png" /> 第五大道首页
+					</a>丨
+					<a href="###" class="call"><span></span>贵宾专线：400-660-5610</a>
 				</div>
-				<div class="deng_right">
-					<ul>											
-						<li class="denglu"><a href="denglu.html">登录</a></li>				
-						<li class="zhuce"><a href="zhuce.html">注册</a></li>					
-						<li class="my5lux">																			
-								<a href="###">我的第五大道</a>
-								<ul class="mylist">
-									<li>
-										<a href="###">我的订单</a>
-									</li>
-									<li>
-										<a href="###">我的收藏</a>
-									</li>
-									<li>
-										<a href="###">已购商品</a>
-									</li>
-									<li>
-										<a href="###">我的礼券</a>								
-									</li>
-									<li>
-										<a href="###">我的积分</a>								
-									</li>
-								</ul>						
-						</li>
-						<li class="help"><a href="###">帮助中心</a></li>
-						<li class="phone" href="###">
-							<a href="###">手机版下载</a>
-							<dl class="qr">								
-								<dt><a href="###"><img src="imgs/index/qr.jpg"/></a></dt>
-								<p>扫码下载APP</p>
-								<dd>立即<a href="###"><i>赠送50元</i></a></dd>
-							</dl>
-						</li>
-					</ul>
-				</div>
+				<ul class="deng_right">
+					<li class="denglu">
+						<a href="denglu.html" class="userName">登录</a>
+					</li>
+					<li class="zhuce">
+						<a href="zhuce.html">注册</a>
+					</li>
+					<li class="my5lux">
+						<a href="###"><span>我的第五大道</span></a>
+						<ul class="mylist">
+							<li>
+								<a href="###">我的订单</a>
+							</li>
+							<li>
+								<a href="###">我的收藏</a>
+							</li>
+							<li>
+								<a href="###">已购商品</a>
+							</li>
+							<li>
+								<a href="###">我的礼券</a>
+							</li>
+							<li>
+								<a href="###">我的积分</a>
+							</li>
+						</ul>
+					</li>
+					<li class="help">
+						<a href="###">帮助中心</a>
+					</li>
+					<li class="phone" href="###">
+						<a href="###"><span>手机版下载</span></a>
+						<ul class="qr">
+							<li>
+								<a href="###"><img src="imgs/index/qr.jpg" /></a>
+							</li>
+							<li>扫码下载APP</li>
+							<li>立即
+								<a href="###"><i>赠送50元</i></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
 			</div>
 		</div>
-		
+
 		<!-- -------------------logo------------------------------------------->
 		<div class="logo">
-			<div class="lg">								
+			<div class="lg">
 				<div class="logo1">
-					<a href="###"><img src="imgs/index/logo.jpg"/></a>
+					<a href="###"><img src="imgs/index/logo.jpg" /></a>
 				</div>
 				<div class="logo2">
-					<a href="###"><img src="imgs/index/yijian.jpg"/></a>
+					<a href="###"><img src="imgs/index/yijian.jpg" /></a>
 				</div>
-				<div class="search">					
-					<form action="" method="get">						
+				<div class="search">
+					<form action="" method="get">
 						<input class="search_input" type="input" placeholder="雪地靴" />
-						<input type="button" value="搜 索"  class="but">
+						<input type="button" value="搜 索" class="but">
 					</form>
 					<ul class="search_list">
-						<li><a href="##">羽绒服</a></li>
-						<li><a href="##">围巾</a></li>
-						<li><a href="##">箱包</a></li>
-						<li><a href="##">箱包</a></li>
+						<li>
+							<a href="##">羽绒服</a>
+						</li>
+						<li>
+							<a href="##">围巾</a>
+						</li>
+						<li>
+							<a href="##">箱包</a>
+						</li>
+						<li>
+							<a href="##">箱包</a>
+						</li>
 					</ul>
 				</div>
 				<div class="logocart">
@@ -103,12 +161,1761 @@
 					<span>
 						<a href="goodcart.html"> 购物袋 ( <i>0</i> )</a>						
 					</span>
-					<div class="cartbox" >
+					<div class="cartbox">
 						<p>购物车里暂时没有商品,</p>
 						<p>选择心爱的商品吧!</p>
 					</div>
 				</div>
-			</div>	
+			</div>
+		</div>
+		<!-----------------------导航栏------------------------->
+		<div class="nav">
+		</div>
+		<!---------------------------轮播图------------------------------------------>
+		<div class="lunbo">
+			<div class="lunbo_1">
+				<ul class="list">
+					<li>
+						<a href="###"><img src="imgs/index/148309385596_1440x520.jpg" /></a>
+					</li>
+					<li>
+						<a href="###"><img src="imgs/index/148637917222_1440x520.jpg" /></a>
+					</li>
+					<li>
+						<a href="###"><img src="imgs/index/148635328825_1440x520.jpg" /></a>
+					</li>
+					<li>
+						<a href="###"><img src="imgs/index/148646265984_1440x520.jpg" /></a>
+					</li>
+					<li>
+						<a href="###"><img src="imgs/index/148309385596_1440x520.jpg" /></a>
+					</li>
+					<li>
+						<a href="###"><img src="imgs/index/148637917222_1440x520.jpg" /></a>
+					</li>
+				</ul>
+				<span class="prev"><img src="imgs/index/templateleft.png"/></span>
+				<span class="next"><img src="imgs/index/templateright.png"/></span>
+				<div class="btn">
+					<span class="active"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div>
+		<div class="main1">
+			<div class="main">
+				<!--------------品牌旗舰--------------------------->
+				<div class="pinpai">
+					<h2 class="pinpai_title"><img src="imgs/index/mainx_brandship.png"/></h2>
+					<ul class="pinpai_list">
+						<li>
+							<a href="###">
+								<img src="imgs/index/14661272155086.jpg" />
+								<div class="box">
+									<img src="imgs/index/14477460558710.png" />
+									<p class="line">
+										<span></span>
+									</p>
+									<p class="pinpai_1">Tiffany &amp; Co.</p>
+									<p class="pinpai_2">.蒂芙尼</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="imgs/index/148358175569_234x329.jpg" />
+								<div class="box">
+									<img src="imgs/index/14477284515625.png" />
+									<p class="line">
+										<span></span>
+									</p>
+									<p class="pinpai_1">Burberry</p>
+									<p class="pinpai_2">巴宝莉</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="imgs/index/147856851236_234x329.jpg" />
+								<div class="box">
+									<img src="imgs/index/14477416916999.png" />
+									<p class="line">
+										<span></span>
+									</p>
+									<p class="pinpai_1">Michael Kors/MK</p>
+									<p class="pinpai_2">迈克.柯尔</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="###">
+								<img src="imgs/index/148358083235_234x329.jpg" />
+								<div class="box">
+									<img src="imgs/index/14477294495067.png" />
+									<p class="line">
+										<span></span>
+									</p>
+									<p class="pinpai_1">Cherry Chau</p>
+									<p class="pinpai_2">Cherry Chau</p>
+								</div>
+							</a>
+						</li>
+						<li class="last">
+							<a href="###">
+								<img src="imgs/index/14670271282639.jpg" />
+								<div class="box">
+									<img src="imgs/index/14477389709986.png" />
+									<p class="line">
+										<span></span>
+									</p>
+									<p class="pinpai_1">Kenneth Cole</p>
+									<p class="pinpai_2">凯尼斯.柯尔</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<!--------------------热门旗舰------------------------------------->
+					<div class="hot_title">
+						<img src="imgs/index/hotstore_t.jpg" alt="">
+						<div class="hotbtn">
+							<a href="###"><span class="hot_pre"></span></a>
+							<a href="###"><span class="hot_next"></span></a>
+						</div>
+					</div>
+					<div class="hot_list">
+						<ul class="hotbox">
+							<li>
+								<div class="minbox">
+									<img src="imgs/index/14477416926764.png" alt="Moncler蒙口">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">蒙口</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477462462623.png" alt="TOD&#39;S  托德斯">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">托德斯</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477284508184.png" alt="Brooks Brothers 布克兄弟">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">布克兄弟</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14643313037366.png" alt="稀奇艺术X+Q">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">稀奇艺术</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14712476653414.png" alt="GELEISTORY 歌蕾">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">歌蕾</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/147418184838_214x108.jpg" alt="LuckyOzasec欧泽斯">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">LuckyOzasec</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/147255231014_214x108.png" alt="Refa">
+									<div class="hidebox">
+										<a href="####">
+											<p class="p1">Refa</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477430744531.png" alt="police">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">POLICE </p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14479263905429.png" alt="Rebecca Minkoff 瑞贝卡·明可弗">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">瑞贝卡·明可弗</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14524832304110.png" alt="Theonne">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">Theonne</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477284519867.png" alt="Bvlgari宝格丽">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">宝格丽</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477391395609.png" alt="KIEHL&#39;S  科颜氏">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">科颜氏</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477258985459.png" alt="Armani阿玛尼">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">阿玛尼</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477391399663.png" alt="La Mer海蓝之谜">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">海蓝之谜</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+							</li>
+							<li>
+								<div class="minbox">
+									<img src="imgs/index/14477306892349.png" alt="Dolce&amp;Gabbana（D&amp;G）">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">杜嘉班纳</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/147635292315_214x108.jpg" alt="Rolex劳力士">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">劳力士</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477274206917.png" alt="Bobbi Brown波比布朗">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">波比布朗</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/147669863333_214x108.jpg" alt="By Creations柏品">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">柏品</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477267323870.png" alt="Bally巴利">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">巴利</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477432452427.png" alt="Ray-Ban雷朋">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">雷朋</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477287608582.png" alt="Calvin Klein CK卡尔文.克莱恩">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">卡尔文.克莱恩</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477305449735.png" alt="Dior迪奥">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">迪奥</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477425318150.png" alt="Parker派克">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">派克</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477320366584.png" alt="Guess">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">Guess</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477378676085.png" alt="Hugo Boss雨果.波士">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">雨果.波士</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477419321653.png" alt="Moschino莫斯奇诺">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">莫斯奇诺</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477454567787.png" alt="Tag Heuer豪雅">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">豪雅</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477414658831.png" alt="MCM">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">MCM</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+							</li>
+							<li>
+								<div class="minbox">
+									<img src="imgs/index/14477419323290.png" alt="Mont blanc万宝龙">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">万宝龙</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477312236406.png" alt="Estee Lauder雅诗兰黛">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">雅诗兰黛</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477320365133.png" alt="Guerlain娇兰">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">娇兰</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477248162526.png" alt="Alexander McQueen亚历山大.麦昆">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">亚历山大.麦昆</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477432418542.png" alt="Prada普拉达">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">普拉达</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477282116284.png" alt="Breguet宝玑">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">宝玑</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477432448399.png" alt="Rado雷达">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">雷达</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477468896235.png" alt="Victoria&#39;s Secret  维多利亚的秘密">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">维多利亚的秘密</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477388141982.png" alt="Juicy Couture橘滋">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">橘滋</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477454559904.png" alt="Swarovski施华洛世奇">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">施华洛世奇</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477290286824.png" alt="Cartier卡地亚">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">卡地亚</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477396117694.png" alt="Lancome兰蔻">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">兰蔻</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14477401441012.png" alt="Longchamp珑骧">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">珑骧</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+								<div class="minbox">
+									<img src="imgs/index/14461052905935.png" alt="Guy Laroche姬龙雪">
+									<div class="hidebox">
+										<a href="###">
+											<p class="p1">姬龙雪</p>
+											<div class="downline">
+												<span></span>
+											</div>
+										</a>
+									</div>
+									<div class="topline"></div>
+									<div class="rightline"></div>
+									<div class="bottomline"></div>
+									<div class="leftline"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!------------商场同款--------------------------->
+				<div class="shangchang_title">
+					<img src="imgs/index/storesametitle.jpg" alt="商场同款 HOT ASLE">
+				</div>
+				<ul class="shangchang_lists">
+					<li class="active">热卖品牌</li>
+					<li>新品推荐</li>
+					<li class="a3">明星同款</li>
+				</ul>
+				<div class="shangchang">
+					<div class="boxlist">
+						<div class="boxs">
+							<div class="boxs_left">
+								<a href="###"><img src="imgs/index/148652443570_366x515.jpg" /></a>
+							</div>
+							<div class="boxs_right">
+								<div class="boxs_right_top">
+									<div class="boxs_right_top1">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/14514545085034.jpg">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_top2">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/148198539160_750x750.jpg">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_top1">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/148479080955_800x800.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="boxs_right_bottom">
+									<div class="boxs_right_bottom1">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/148198539160_750x750.jpg">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_bottom1">
+										<div class="toptxt">
+											<p class="p1">Valentino</p>
+											<p>瓦伦蒂诺</p>
+											<p>￥ 11249</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/148254025821_387x490.JPG">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_bottom1">
+										<div class="toptxt">
+											<p class="p1">POLICE</p>
+											<p>迪奥</p>
+											<p>￥ 499</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/14514545085034.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="boxs">
+							<div class="boxs_left">
+								<a href="###"><img src="imgs/index/148652443466_366x515.jpg" /></a>
+							</div>
+							<div class="boxs_right">
+								<div class="boxs_right_top">
+									<div class="boxs_right_top1">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/14514545085034.jpg">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_top2">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/14514545085034.jpg">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_top1">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/14514545085034.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="boxs_right_bottom">
+									<div class="boxs_right_bottom1">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/14514545085034.jpg">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_bottom1">
+										<div class="toptxt">
+											<p class="p1">Valentino</p>
+											<p>瓦伦蒂诺</p>
+											<p>￥ 11249</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/148254025821_387x490.JPG">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_bottom1">
+										<div class="toptxt">
+											<p class="p1">POLICE</p>
+											<p>迪奥</p>
+											<p>￥ 499</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/148464369047_800x800.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="boxs">
+							<div class="boxs_left">
+								<a href="###"><img src="imgs/index/148652443570_366x515.jpg" /></a>
+							</div>
+							<div class="boxs_right">
+								<div class="boxs_right_top">
+									<div class="boxs_right_top1">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/14514545085034.jpg">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_top2">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/14514545085034.jpg">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_top1">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/14514545085034.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="boxs_right_bottom">
+									<div class="boxs_right_bottom1">
+										<div class="toptxt">
+											<p class="p1">Dior</p>
+											<p>迪奥</p>
+											<p>￥ 24800</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/14514545085034.jpg">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_bottom1">
+										<div class="toptxt">
+											<p class="p1">Valentino</p>
+											<p>瓦伦蒂诺</p>
+											<p>￥ 11249</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/148254025821_387x490.JPG">
+											</a>
+										</div>
+									</div>
+									<div class="boxs_right_bottom1">
+										<div class="toptxt">
+											<p class="p1">POLICE</p>
+											<p>迪奥</p>
+											<p>￥ 499</p>
+										</div>
+										<div class="topimg">
+											<a href="###">
+												<img src="imgs/index/148464369047_800x800.jpg">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!------------购物中心--------------------------------->
+				<div class="gouwu_title">
+					<img src="imgs/index/shopcenter.jpg" />
+				</div>
+				<div class="goulist">
+					<div class="list01 list01_1">
+						<p class="top1">经典箱包</p>
+						<div class="bottom1">
+							<p class="bottom2">Classic bags</p>
+						</div>
+					</div>
+					<div class="list01 list01_2">
+						<p class="top1">典藏腕表</p>
+						<div class="bottom1">
+							<p class="bottom2">Collection watches</p>
+						</div>
+					</div>
+					<div class="list01 list01_3">
+						<p class="top1">精致配饰</p>
+						<div class="bottom1">
+							<p class="bottom2">Exquisite accessories</p>
+						</div>
+					</div>
+					<div class="list01 list01_4">
+						<p class="top1">个护化妆</p>
+						<div class="bottom1">
+							<p class="bottom2">Nurse makeup</p>
+						</div>
+					</div>
+					<div class="list01 list01_5">
+						<p class="top1">时尚鞋服</p>
+						<div class="bottom1">
+							<p class="bottom2">Shoes and apparel</p>
+						</div>
+					</div>
+				</div>
+				<!---------------------经典箱包--------------------->
+				<div class="bao_title">
+					<img src="imgs/index/goodtitle1.jpg" />
+					<div class="bao_title_rightbtn">
+						<span class="mores">SHOW MORE</span>
+						<span class="icon1"></span>
+					</div>
+				</div>
+				<div class="goods">
+					<div class="good1">
+						<ul class="good1_top">
+							<li>
+								<a href="###">单肩包</a>
+							</li>
+							<li>
+								<a href="###">手提包</a>
+							</li>
+							<li>
+								<a href="###">手提斜挎包</a>
+							</li>
+							<li>
+								<a href="###">双肩包</a>
+							</li>
+							<li>
+								<a href="###">手拿包</a>
+							</li>
+							<li>
+								<a href="###">钱包</a>
+							</li>
+							<li>
+								<a href="###">小皮件</a>
+							</li>
+							<li>
+								<a href="###">旅行箱/包</a>
+							</li>
+							<li>
+								<a href="###">斜挎包</a>
+							</li>
+							<li>
+								<a href="###">化妆箱/包</a>
+							</li>
+						</ul>
+						<div class="good1_bottom">
+							<ul class="good1_bottom_list">
+								<li>
+									<a href="###"><img src="imgs/index/14477416914159.png" /></a>
+									<a href="###"><img src="imgs/index/14477294501655.png" /></a>
+									<a href="###"><img src="imgs/index/14477290292344.png" /></a>
+									<a href="###"><img src="imgs/index/14477267323919.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477406185992.png" /></a>
+									<a href="###"><img src="imgs/index/14477292707053.png" /></a>
+									<a href="###"><img src="imgs/index/14477378665957.png" /></a>
+									<a href="###"><img src="imgs/index/14477318724845.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477284515625.png" /></a>
+									<a href="###"><img src="imgs/index/14477302268582.png" /></a>
+									<a href="###"><img src="imgs/index/14477416916999.png" /></a>
+									<a href="###"><img src="imgs/index/14477432418542.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477416914159.png" /></a>
+									<a href="###"><img src="imgs/index/14477294501655.png" /></a>
+									<a href="###"><img src="imgs/index/14477290292344.png" /></a>
+									<a href="###"><img src="imgs/index/14477267323919.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477406185992.png" /></a>
+									<a href="###"><img src="imgs/index/14477292707053.png" /></a>
+									<a href="###"><img src="imgs/index/14477378665957.png" /></a>
+									<a href="###"><img src="imgs/index/14477318724845.png" /></a>
+								</li>
+							</ul>
+							<div class="bottom_btn">
+								<ul class="btns">
+									<li class="active1"></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<span class="pre"></span>
+							<span class="nex"></span>
+						</div>
+					</div>
+					<div class="good2">
+						<img src="imgs/index/148654154234_390x370.jpg" />
+						<div class="good2_shadow">
+							<dl>
+								<dd>Louis Vuitton</dd>
+								<p class="line1">
+									<span></span>
+								</p>
+								<dd>情人节箱包包你搞定</dd>
+								<dt>满足她的奢宠心愿</dt>
+							</dl>
+						</div>
+					</div>
+					<div class="good3">
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453132696_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453132578_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453132676_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453132637_275x180.jpg" />
+							</div>
+						</a>
+					</div>
+				</div>
+				<!---------------------典藏腕表--------------------->
+				<div class="wan_title">
+					<img src="imgs/index/goodtitle2.jpg" />
+					<div class="bao_title_rightbtn">
+						<span class="mores">SHOW MORE</span>
+						<span class="icon1"></span>
+					</div>
+				</div>
+				<div class="goods">
+					<div class="good1">
+						<ul class="good1_top">
+							<li>
+								<a href="###">单肩包</a>
+							</li>
+							<li>
+								<a href="###">手提包</a>
+							</li>
+							<li>
+								<a href="###">手提斜挎包</a>
+							</li>
+							<li>
+								<a href="###">双肩包</a>
+							</li>
+							<li>
+								<a href="###">手拿包</a>
+							</li>
+							<li>
+								<a href="###">钱包</a>
+							</li>
+							<li>
+								<a href="###">小皮件</a>
+							</li>
+							<li>
+								<a href="###">旅行箱/包</a>
+							</li>
+							<li>
+								<a href="###">斜挎包</a>
+							</li>
+							<li>
+								<a href="###">化妆箱/包</a>
+							</li>
+						</ul>
+						<div class="good1_bottom">
+							<ul class="good1_bottom_list">
+								<li>
+									<a href="###"><img src="imgs/index/14477416914159.png" /></a>
+									<a href="###"><img src="imgs/index/14477294501655.png" /></a>
+									<a href="###"><img src="imgs/index/14477290292344.png" /></a>
+									<a href="###"><img src="imgs/index/14477267323919.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477406185992.png" /></a>
+									<a href="###"><img src="imgs/index/14477292707053.png" /></a>
+									<a href="###"><img src="imgs/index/14477378665957.png" /></a>
+									<a href="###"><img src="imgs/index/14477318724845.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477284515625.png" /></a>
+									<a href="###"><img src="imgs/index/14477302268582.png" /></a>
+									<a href="###"><img src="imgs/index/14477416916999.png" /></a>
+									<a href="###"><img src="imgs/index/14477432418542.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477416914159.png" /></a>
+									<a href="###"><img src="imgs/index/14477294501655.png" /></a>
+									<a href="###"><img src="imgs/index/14477290292344.png" /></a>
+									<a href="###"><img src="imgs/index/14477267323919.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477406185992.png" /></a>
+									<a href="###"><img src="imgs/index/14477292707053.png" /></a>
+									<a href="###"><img src="imgs/index/14477378665957.png" /></a>
+									<a href="###"><img src="imgs/index/14477318724845.png" /></a>
+								</li>
+							</ul>
+							<div class="bottom_btn">
+								<ul class="btns">
+									<li class="active1"></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<span class="pre"></span>
+							<span class="nex"></span>
+						</div>
+					</div>
+					<div class="good2">
+						<img src="imgs/index/148654189256_390x370.jpg" />
+						<div class="good2_shadow">
+							<dl>
+								<dd>Louis Vuitton</dd>
+								<p class="line">
+									<span></span>
+								</p>
+								<dd>情人节箱包包你搞定</dd>
+								<dt>满足她的奢宠心愿</dt>
+							</dl>
+						</div>
+					</div>
+					<div class="good3">
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453163432_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453179610_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453224333_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453224371_275x180.jpg" />
+							</div>
+						</a>
+					</div>
+				</div>
+				<!---------------------精致配饰--------------------->
+				<div class="peishi_title">
+					<img src="imgs/index//goodtitle6.jpg" />
+					<div class="bao_title_rightbtn">
+						<span class="mores">SHOW MORE</span>
+						<span class="icon1"></span>
+					</div>
+				</div>
+				<div class="goods">
+					<div class="good1">
+						<ul class="good1_top">
+							<li>
+								<a href="###">单肩包</a>
+							</li>
+							<li>
+								<a href="###">手提包</a>
+							</li>
+							<li>
+								<a href="###">手提斜挎包</a>
+							</li>
+							<li>
+								<a href="###">双肩包</a>
+							</li>
+							<li>
+								<a href="###">手拿包</a>
+							</li>
+							<li>
+								<a href="###">钱包</a>
+							</li>
+							<li>
+								<a href="###">小皮件</a>
+							</li>
+							<li>
+								<a href="###">旅行箱/包</a>
+							</li>
+							<li>
+								<a href="###">斜挎包</a>
+							</li>
+							<li>
+								<a href="###">化妆箱/包</a>
+							</li>
+						</ul>
+						<div class="good1_bottom">
+							<ul class="good1_bottom_list">
+								<li>
+									<a href="###"><img src="imgs/index/14477416914159.png" /></a>
+									<a href="###"><img src="imgs/index/14477294501655.png" /></a>
+									<a href="###"><img src="imgs/index/14477290292344.png" /></a>
+									<a href="###"><img src="imgs/index/14477267323919.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477406185992.png" /></a>
+									<a href="###"><img src="imgs/index/14477292707053.png" /></a>
+									<a href="###"><img src="imgs/index/14477378665957.png" /></a>
+									<a href="###"><img src="imgs/index/14477318724845.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477284515625.png" /></a>
+									<a href="###"><img src="imgs/index/14477302268582.png" /></a>
+									<a href="###"><img src="imgs/index/14477416916999.png" /></a>
+									<a href="###"><img src="imgs/index/14477432418542.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477416914159.png" /></a>
+									<a href="###"><img src="imgs/index/14477294501655.png" /></a>
+									<a href="###"><img src="imgs/index/14477290292344.png" /></a>
+									<a href="###"><img src="imgs/index/14477267323919.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477406185992.png" /></a>
+									<a href="###"><img src="imgs/index/14477292707053.png" /></a>
+									<a href="###"><img src="imgs/index/14477378665957.png" /></a>
+									<a href="###"><img src="imgs/index/14477318724845.png" /></a>
+								</li>
+							</ul>
+							<div class="bottom_btn">
+								<ul class="btns">
+									<li class="active1"></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<span class="pre"></span>
+							<span class="nex"></span>
+						</div>
+					</div>
+					<div class="good2">
+						<img src="imgs/index/148654154234_390x370.jpg" />
+						<div class="good2_shadow">
+							<dl>
+								<dd>Louis Vuitton</dd>
+								<p class="line1">
+									<span></span>
+								</p>
+								<dd>情人节箱包包你搞定</dd>
+								<dt>满足她的奢宠心愿</dt>
+							</dl>
+						</div>
+					</div>
+					<div class="good3">
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453257137_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453278320_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453289864_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148464369047_800x800.jpg" />
+							</div>
+						</a>
+					</div>
+				</div>
+				<!---------------------个护化妆--------------------->
+				<div class="huazhuang_title">
+					<img src="imgs/index/goodtitle4.jpg" />
+					<div class="bao_title_rightbtn">
+						<span class="mores">SHOW MORE</span>
+						<span class="icon1"></span>
+					</div>
+				</div>
+				<div class="goods">
+					<div class="good1">
+						<ul class="good1_top">
+							<li>
+								<a href="###">单肩包</a>
+							</li>
+							<li>
+								<a href="###">手提包</a>
+							</li>
+							<li>
+								<a href="###">手提斜挎包</a>
+							</li>
+							<li>
+								<a href="###">双肩包</a>
+							</li>
+							<li>
+								<a href="###">手拿包</a>
+							</li>
+							<li>
+								<a href="###">钱包</a>
+							</li>
+							<li>
+								<a href="###">小皮件</a>
+							</li>
+							<li>
+								<a href="###">旅行箱/包</a>
+							</li>
+							<li>
+								<a href="###">斜挎包</a>
+							</li>
+							<li>
+								<a href="###">化妆箱/包</a>
+							</li>
+						</ul>
+						<div class="good1_bottom">
+							<ul class="good1_bottom_list">
+								<li>
+									<a href="###"><img src="imgs/index/14477416914159.png" /></a>
+									<a href="###"><img src="imgs/index/14477294501655.png" /></a>
+									<a href="###"><img src="imgs/index/14477290292344.png" /></a>
+									<a href="###"><img src="imgs/index/14477267323919.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477406185992.png" /></a>
+									<a href="###"><img src="imgs/index/14477292707053.png" /></a>
+									<a href="###"><img src="imgs/index/14477378665957.png" /></a>
+									<a href="###"><img src="imgs/index/14477318724845.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477284515625.png" /></a>
+									<a href="###"><img src="imgs/index/14477302268582.png" /></a>
+									<a href="###"><img src="imgs/index/14477416916999.png" /></a>
+									<a href="###"><img src="imgs/index/14477432418542.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477416914159.png" /></a>
+									<a href="###"><img src="imgs/index/14477294501655.png" /></a>
+									<a href="###"><img src="imgs/index/14477290292344.png" /></a>
+									<a href="###"><img src="imgs/index/14477267323919.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477406185992.png" /></a>
+									<a href="###"><img src="imgs/index/14477292707053.png" /></a>
+									<a href="###"><img src="imgs/index/14477378665957.png" /></a>
+									<a href="###"><img src="imgs/index/14477318724845.png" /></a>
+								</li>
+							</ul>
+							<div class="bottom_btn">
+								<ul class="btns">
+									<li class="active1"></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<span class="pre"></span>
+							<span class="nex"></span>
+						</div>
+					</div>
+					<div class="good2">
+						<img src="imgs/index/148628969050_390x370.jpg" />
+						<div class="good2_shadow">
+							<dl>
+								<dd>Louis Vuitton</dd>
+								<p class="line1">
+									<span></span>
+								</p>
+								<dd>情人节箱包包你搞定</dd>
+								<dt>满足她的奢宠心愿</dt>
+							</dl>
+						</div>
+					</div>
+					<div class="good3">
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453314082_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453334358_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453334496_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453346844_275x180.jpg" />
+							</div>
+						</a>
+					</div>
+				</div>
+				<!---------------------时尚服饰--------------------->
+				<div class="shishang_title">
+					<img src="imgs/index/goodtitle3.jpg" />
+					<div class="bao_title_rightbtn">
+						<span class="mores">SHOW MORE</span>
+						<span class="icon1"></span>
+					</div>
+				</div>
+				<div class="goods">
+					<div class="good1">
+						<ul class="good1_top">
+							<li>
+								<a href="###">单肩包</a>
+							</li>
+							<li>
+								<a href="###">手提包</a>
+							</li>
+							<li>
+								<a href="###">手提斜挎包</a>
+							</li>
+							<li>
+								<a href="###">双肩包</a>
+							</li>
+							<li>
+								<a href="###">手拿包</a>
+							</li>
+							<li>
+								<a href="###">钱包</a>
+							</li>
+							<li>
+								<a href="###">小皮件</a>
+							</li>
+							<li>
+								<a href="###">旅行箱/包</a>
+							</li>
+							<li>
+								<a href="###">斜挎包</a>
+							</li>
+							<li>
+								<a href="###">化妆箱/包</a>
+							</li>
+						</ul>
+						<div class="good1_bottom">
+							<ul class="good1_bottom_list">
+								<li>
+									<a href="###"><img src="imgs/index/14477416914159.png" /></a>
+									<a href="###"><img src="imgs/index/14477294501655.png" /></a>
+									<a href="###"><img src="imgs/index/14477290292344.png" /></a>
+									<a href="###"><img src="imgs/index/14477267323919.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477406185992.png" /></a>
+									<a href="###"><img src="imgs/index/14477292707053.png" /></a>
+									<a href="###"><img src="imgs/index/14477378665957.png" /></a>
+									<a href="###"><img src="imgs/index/14477318724845.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477284515625.png" /></a>
+									<a href="###"><img src="imgs/index/14477302268582.png" /></a>
+									<a href="###"><img src="imgs/index/14477416916999.png" /></a>
+									<a href="###"><img src="imgs/index/14477432418542.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477416914159.png" /></a>
+									<a href="###"><img src="imgs/index/14477294501655.png" /></a>
+									<a href="###"><img src="imgs/index/14477290292344.png" /></a>
+									<a href="###"><img src="imgs/index/14477267323919.png" /></a>
+								</li>
+								<li>
+									<a href="###"><img src="imgs/index/14477406185992.png" /></a>
+									<a href="###"><img src="imgs/index/14477292707053.png" /></a>
+									<a href="###"><img src="imgs/index/14477378665957.png" /></a>
+									<a href="###"><img src="imgs/index/14477318724845.png" /></a>
+								</li>
+							</ul>
+							<div class="bottom_btn">
+								<ul class="btns">
+									<li class="active1"></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<span class="pre"></span>
+							<span class="nex"></span>
+						</div>
+					</div>
+					<div class="good2">
+						<img src="imgs/index/148628992484_390x370.jpg" />
+						<div class="good2_shadow">
+							<dl>
+								<dd>Louis Vuitton</dd>
+								<p class="line1">
+									<span></span>
+								</p>
+								<dd>情人节箱包包你搞定</dd>
+								<dt>满足她的奢宠心愿</dt>
+							</dl>
+						</div>
+					</div>
+					<div class="good3">
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453386746_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148698157577_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453459238_275x180.jpg" />
+							</div>
+						</a>
+						<a href="###">
+							<div class="good3_1">
+								<img src="imgs/index/148453407271_275x180.jpg" />
+							</div>
+						</a>
+					</div>
+				</div>
+				<!---------------------主题活动--------------------->
+				<div class="zhuti_title">
+					<img src="imgs/index/promotiontitle.jpg" alt="商场同款 HOT ASLE">
+				</div>
+				<ul class="hudong_top">
+					<li>
+						<a href="###"><img src="imgs/index/148360692962_598x293.jpg" /></a>
+					</li>
+					<li>
+						<a href="###"><img src="imgs/index/148654380258_293x293.jpg" /></a>
+					</li>
+					<li class="hide1">
+						<a href="###"><img src="imgs/index/148654272739_293x293.jpg" /></a>
+					</li>
+					<li>
+						<a href="###"><img src="imgs/index/148654306286_293x293.jpg" /></a>
+					</li>
+					<li>
+						<a href="###"><img src="imgs/index/148507303431_293x293.jpg" /></a>
+					</li>
+					<li class="hide1">
+						<a href="###"><img src="imgs/index/148360692962_598x293.jpg" /></a>
+					</li>
+				</ul>
+				<div class="hudong_bottom">
+					<ul class="hudong_bottom_left">
+						<li>
+							<a href="###"><img src="imgs/index/1promotionpic.jpg" /></a>
+							<div class="topline"></div>
+							<div class="rightline"></div>
+							<div class="bottomline"></div>
+							<div class="leftline"></div>
+						</li>
+						<li>
+							<a href="###"><img src="imgs/index/2promotionpic.jpg" /></a>
+							<div class="topline"></div>
+							<div class="rightline"></div>
+							<div class="bottomline"></div>
+							<div class="leftline"></div>
+						</li>
+						<li>
+							<a href="###"><img src="imgs/index/3promotionpic.jpg" /></a>
+							<div class="topline"></div>
+							<div class="rightline"></div>
+							<div class="bottomline"></div>
+							<div class="leftline"></div>
+						</li>
+						<li>
+							<a href="###"><img src="imgs/index/4promotionpic.jpg" /></a>
+							<div class="topline"></div>
+							<div class="rightline"></div>
+							<div class="bottomline"></div>
+							<div class="leftline"></div>
+						</li>
+						<li>
+							<a href="###"><img src="imgs/index/5promotionpic.jpg" /></a>
+							<div class="topline"></div>
+							<div class="rightline"></div>
+							<div class="bottomline"></div>
+							<div class="leftline"></div>
+						</li>
+						<li>
+							<a href="###"><img src="imgs/index/6promotionpic.jpg" /></a>
+							<div class="topline"></div>
+							<div class="rightline"></div>
+							<div class="bottomline"></div>
+							<div class="leftline"></div>
+						</li>
+					</ul>
+					<ul class="hudong_bottom_right">
+						<li>
+							<a href="###"><img src="imgs/index/1promotionpic.jpg" /></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-----------------底部------------------------>
+
+		<div class="footbg">
+
 		</div>
 	</body>
+
 </html>

@@ -11,26 +11,38 @@ body {
   font-family: "微软雅黑"; }
 
 img {
-  display: block; }
+  border: none; }
 
 i, em {
   font-style: normal; }
 
 a {
+  text-decoration: none;
+  color: inherit; }
+
+a:hover {
+  color: inherit;
   text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6, b {
   font-weight: normal; }
 
-.commonWidth, .top, .deng, .logo {
-  width: 100%;
-  min-width: 1210px; }
+table, tr, td, th {
+  border: none;
+  text-align: left; }
 
-.Width, .deng_top, .lg {
+table {
+  border-collapse: collapse; }
+
+.commonWidth, .nav, .footbg, .top_img, .deng, .logo, .lunbo, .main1 {
+  width: 100%;
+  min-width: 1349px; }
+
+.Width, .nav .menu, .footbg .foot, .deng .deng_top, .logo .lg, .main1 .main {
   width: 1210px;
   margin: 0 auto; }
 
-.centerFixed, .tan_tc, .top_tc {
+.centerFixed, .top_tc {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -39,239 +51,907 @@ h1, h2, h3, h4, h5, h6, b {
   z-index: 1000;
   display: none; }
 
-/*<-------------------------打开页面的弹窗------------------------->*/
-.tan_tc .tan_open {
-  width: 920px;
-  height: 560px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto; }
-  .tan_tc .tan_open a {
-    width: 69px;
-    height: 68px;
+.showshop1, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop, .nav .menu .menu_first .menu_list .muying .muying_show .showshop, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop {
+  width: 650px;
+  line-height: 25px;
+  min-height: 25px;
+  border-bottom: 1px solid #d7d7d7;
+  margin-left: 50px;
+  background-color: #ffffff;
+  margin: 10px 0px 10px 20px;
+  overflow: hidden;
+  position: relative; }
+  .showshop1 .right, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop .right, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop .right, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop .right, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop .right, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop .right, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop .right, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop .right, .nav .menu .menu_first .menu_list .muying .muying_show .showshop .right, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop .right, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop .right, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop .right, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop .right, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop .right, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop .right, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop .right {
     position: absolute;
-    right: 10px;
-    top: 10px;
-    cursor: pointer;
-    background: url(../../imgs/index/147866030690_69x68.png) no-repeat; }
+    left: 130px;
+    top: 0;
+    overflow: hidden; }
+    .showshop1 .right a, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop .right a, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop .right a, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop .right a, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop .right a, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop .right a, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop .right a, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop .right a, .nav .menu .menu_first .menu_list .muying .muying_show .showshop .right a, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop .right a, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop .right a, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop .right a, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop .right a, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop .right a, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop .right a, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop .right a {
+      float: left;
+      margin-right: 10px;
+      height: 25px;
+      line-height: 25px;
+      color: #757272;
+      font-weight: normal;
+      font-size: 12px; }
+      .showshop1 .right a:hover, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .muying .muying_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop .right a:hover, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop .right a:hover {
+        text-decoration: underline; }
+  .showshop1 h4, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop h4, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop h4, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop h4, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop h4, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop h4, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop h4, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop h4, .nav .menu .menu_first .menu_list .muying .muying_show .showshop h4, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop h4, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop h4, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop h4, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop h4, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop h4, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop h4, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop h4 {
+    float: left;
+    width: 130px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold; }
+    .showshop1 h4 a, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showshop h4 a, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showshop h4 a, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showshop h4 a, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showshop h4 a, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showshop h4 a, .nav .menu .menu_first .menu_list .peishi .peishi_show .showshop h4 a, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showshop h4 a, .nav .menu .menu_first .menu_list .muying .muying_show .showshop h4 a, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showshop h4 a, .nav .menu .menu_first .menu_list .meishi .meishi_show .showshop h4 a, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showshop h4 a, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showshop h4 a, .nav .menu .menu_first .menu_list .bangong .bangong_show .showshop h4 a, .nav .menu .menu_first .menu_list .lipin .lipin_show .showshop h4 a, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showshop h4 a {
+      float: left;
+      color: red; }
 
-/*<!-------------------------页面底部固定的透明层------------------------->*/
-/*<!-------------------------顶部赔偿栏----------------------------->*/
-.top {
-  background: url(../../imgs/index/147857407039_1920x80.jpg) no-repeat top; }
-  .top img {
-    margin: 0 auto; }
+.showbtn1, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showbtn, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showbtn, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showbtn, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showbtn, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showbtn, .nav .menu .menu_first .menu_list .peishi .peishi_show .showbtn, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showbtn, .nav .menu .menu_first .menu_list .muying .muying_show .showbtn, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showbtn, .nav .menu .menu_first .menu_list .meishi .meishi_show .showbtn, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showbtn, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showbtn, .nav .menu .menu_first .menu_list .bangong .bangong_show .showbtn, .nav .menu .menu_first .menu_list .lipin .lipin_show .showbtn, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showbtn {
+  float: left;
+  margin: 10px 20px;
+  width: 590px;
+  height: 70px;
+  overflow: hidden; }
+  .showbtn1 a, .nav .menu .menu_first .menu_list .tuijian .tuijian_show .showbtn a, .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show .showbtn a, .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show .showbtn a, .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show .showbtn a, .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show .showbtn a, .nav .menu .menu_first .menu_list .peishi .peishi_show .showbtn a, .nav .menu .menu_first .menu_list .xiexue .xiexue_show .showbtn a, .nav .menu .menu_first .menu_list .muying .muying_show .showbtn a, .nav .menu .menu_first .menu_list .meijiu .meijiu_show .showbtn a, .nav .menu .menu_first .menu_list .meishi .meishi_show .showbtn a, .nav .menu .menu_first .menu_list .jiaju .jiaju_show .showbtn a, .nav .menu .menu_first .menu_list .dianzi .dianzi_show .showbtn a, .nav .menu .menu_first .menu_list .bangong .bangong_show .showbtn a, .nav .menu .menu_first .menu_list .lipin .lipin_show .showbtn a, .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show .showbtn a {
+    float: left;
+    width: 115px;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px 10px 20px 55px;
+    background: red;
+    color: #fff; }
 
-.top_tc .top_click {
-  width: 490px;
-  height: 512px;
+.topline1, .main1 .main .hudong_bottom .hudong_bottom_left li .topline {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  height: 1px;
+  width: 0;
+  background: #000; }
+
+.rightline1, .main1 .main .hudong_bottom .hudong_bottom_left li .rightline {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  height: 0;
+  width: 1px;
+  background: #000; }
+
+.bottomline1, .main1 .main .hudong_bottom .hudong_bottom_left li .bottomline {
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  height: 1px;
+  width: 0;
+  background: #000; }
+
+.leftline1, .main1 .main .hudong_bottom .hudong_bottom_left li .leftline {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  height: 0;
+  width: 1px;
+  background: #000; }
+
+.toptxt_1, .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top1 .toptxt, .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top2 .toptxt, .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_bottom .boxs_right_bottom1 .toptxt {
+  font-size: 13px;
+  color: #666;
+  display: inline-block;
+  position: relative;
+  left: 0; }
+  .toptxt_1 p, .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top1 .toptxt p, .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top2 .toptxt p, .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_bottom .boxs_right_bottom1 .toptxt p {
+    height: 24px;
+    line-height: 24px; }
+  .toptxt_1 .p1, .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top1 .toptxt .p1, .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top2 .toptxt .p1, .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_bottom .boxs_right_bottom1 .toptxt .p1 {
+    color: #000; }
+
+.right_menu1 {
   position: fixed;
-  top: 0;
   right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto; }
-  .top_tc .top_click a {
+  top: 30%;
+  width: 35px;
+  height: 235px;
+  z-index: 100; }
+  .right_menu1 .right_menu1_1 {
     width: 35px;
     height: 35px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
+    background-color: #333;
+    margin-bottom: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
     cursor: pointer; }
+    .right_menu1 .right_menu1_1:hover {
+      background: #c69c6d; }
+    .right_menu1 .right_menu1_1 .menu1_cart span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -88px -156px; }
+      .right_menu1 .right_menu1_1 .menu1_cart span:hover {
+        background: url(../../imgs/index/share02.png) no-repeat -88px -121px; }
+    .right_menu1 .right_menu1_1 .menu_zichan span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -140px -154px; }
+      .right_menu1 .right_menu1_1 .menu_zichan span:hover {
+        background: url(../../imgs/index/share02.png) no-repeat -140px -124px; }
+    .right_menu1 .right_menu1_1 .menu_like span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -202px -155px; }
+      .right_menu1 .right_menu1_1 .menu_like span:hover {
+        background: url(../../imgs/index/share02.png) no-repeat -202px -126px; }
+    .right_menu1 .right_menu1_1 .menu_kefu span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -258px -125px; }
+    .right_menu1 .right_menu1_1 .active2 {
+      position: absolute;
+      top: 0;
+      right: 35px;
+      width: 99px;
+      height: 33px;
+      line-height: 33px;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #e4e4e4;
+      border-right: none;
+      font-size: 14px;
+      display: none; }
+      .right_menu1 .right_menu1_1 .active2 i {
+        display: block;
+        position: absolute;
+        right: -8px;
+        top: 10px;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+        font-family: "\5b8b\4f53"; }
+
+.right_menu2 {
+  position: fixed;
+  right: 0;
+  bottom: -55px;
+  width: 35px;
+  height: 235px;
+  z-index: 100; }
+  .right_menu2 .right_menu2_1 {
+    width: 35px;
+    height: 35px;
+    background-color: #333;
+    margin-bottom: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    cursor: pointer; }
+    .right_menu2 .right_menu2_1:hover {
+      background: #c69c6d; }
+    .right_menu2 .right_menu2_1 .menu1_weixin span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -312px -155px; }
+      .right_menu2 .right_menu2_1 .menu1_weixin span:hover {
+        background: url(../../imgs/index/lux_index.png) no-repeat -475px -52px; }
+    .right_menu2 .right_menu2_1 .menu1_yijian span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -374px -157px; }
+      .right_menu2 .right_menu2_1 .menu1_yijian span:hover {
+        background: url(../../imgs/index/lux_index.png) no-repeat -124px -52px; }
+    .right_menu2 .right_menu2_1 .menu1_lianxi span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/line_bg.png) no-repeat 10px 9px; }
+      .right_menu2 .right_menu2_1 .menu1_lianxi span:hover {
+        background: url(../../imgs/index/line_bg.png) no-repeat 10px -19px; }
+    .right_menu2 .right_menu2_1 .menu1_weixin2 {
+      position: absolute;
+      right: 35px;
+      top: 1px;
+      display: none; }
+      .right_menu2 .right_menu2_1 .menu1_weixin2 i {
+        display: block;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        font-size: 16px;
+        right: -8px;
+        top: 10px;
+        color: #fff;
+        font-family: "\5b8b\4f53"; }
+    .right_menu2 .right_menu2_1 .menu1_top span {
+      display: block;
+      width: 35px;
+      height: 35px;
+      background: url(../../imgs/index/share02.png) no-repeat -437px -153px; }
+      .right_menu2 .right_menu2_1 .menu1_top span:hover {
+        background: url(../../imgs/index/lux_index.png) no-repeat -401px -52px; }
+    .right_menu2 .right_menu2_1 .active2 {
+      position: absolute;
+      top: 0;
+      right: 35px;
+      width: 99px;
+      height: 33px;
+      line-height: 33px;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #e4e4e4;
+      border-right: none;
+      font-size: 14px;
+      display: none; }
+      .right_menu2 .right_menu2_1 .active2 i {
+        display: block;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        text-align: center;
+        font-size: 16px;
+        right: -8px;
+        top: 10px;
+        color: #fff;
+        font-family: "\5b8b\4f53"; }
+
+/*<!-----------------------导航栏------------------------->*/
+.nav {
+  height: 38px;
+  background: url("../../imgs/index/navi_1pxbg.png") repeat-x;
+  box-shadow: 0 4px 4px #c7c6c6; }
+  .nav .menu {
+    position: relative; }
+    .nav .menu .menu_first {
+      width: 130px;
+      background: #d00000;
+      color: #fff;
+      font-weight: bold; }
+      .nav .menu .menu_first .menu_list {
+        width: 130px;
+        height: 540px;
+        z-index: 100;
+        position: absolute;
+        top: 38px;
+        left: 0;
+        display: none; }
+        .nav .menu .menu_first .menu_list li {
+          width: 130px;
+          color: #000;
+          height: 36px;
+          position: relative;
+          background: #fff;
+          opacity: 0.85; }
+          .nav .menu .menu_first .menu_list li:hover {
+            opacity: 1;
+            color: #c2a67d; }
+          .nav .menu .menu_first .menu_list li span {
+            display: inline-block;
+            width: 56px;
+            padding-left: 20px; }
+          .nav .menu .menu_first .menu_list li .line {
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            top: 5px;
+            height: 36px;
+            width: 20px;
+            display: none;
+            background: url("../../imgs/index/share02.png") no-repeat -304px -33px; }
+        .nav .menu .menu_first .menu_list .tuijian {
+          opacity: 0.85;
+          position: relative;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 0; }
+          .nav .menu .menu_first .menu_list .tuijian:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 0; }
+          .nav .menu .menu_first .menu_list .tuijian .tuijian_show {
+            z-index: 100;
+            position: absolute;
+            top: 2px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            width: 800px;
+            display: none;
+            overflow: hidden; }
+        .nav .menu .menu_first .menu_list .xiangbao {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -32px; }
+          .nav .menu .menu_first .menu_list .xiangbao:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -32px; }
+          .nav .menu .menu_first .menu_list .xiangbao .xiangbao_show {
+            z-index: 100;
+            position: absolute;
+            top: -30px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .meizhuang {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -64px; }
+          .nav .menu .menu_first .menu_list .meizhuang:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -64px; }
+          .nav .menu .menu_first .menu_list .meizhuang .meizhuang_show {
+            z-index: 100;
+            position: absolute;
+            top: -50px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .fuzhuang {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -96px; }
+          .nav .menu .menu_first .menu_list .fuzhuang:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -96px; }
+          .nav .menu .menu_first .menu_list .fuzhuang .fuzhuang_show {
+            z-index: 100;
+            position: absolute;
+            top: -60px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .wanbiao {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -128px; }
+          .nav .menu .menu_first .menu_list .wanbiao:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -128px; }
+          .nav .menu .menu_first .menu_list .wanbiao .wanbiao_show {
+            z-index: 100;
+            position: absolute;
+            top: -50px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .peishi {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -160px; }
+          .nav .menu .menu_first .menu_list .peishi:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -160px; }
+          .nav .menu .menu_first .menu_list .peishi .peishi_show {
+            z-index: 100;
+            position: absolute;
+            top: -40px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .xiexue {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -192px; }
+          .nav .menu .menu_first .menu_list .xiexue:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -192px; }
+          .nav .menu .menu_first .menu_list .xiexue .xiexue_show {
+            z-index: 100;
+            position: absolute;
+            top: -30px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .muying {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -224px; }
+          .nav .menu .menu_first .menu_list .muying:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -224px; }
+          .nav .menu .menu_first .menu_list .muying .muying_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .meijiu {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -256px; }
+          .nav .menu .menu_first .menu_list .meijiu:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -256px; }
+          .nav .menu .menu_first .menu_list .meijiu .meijiu_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .meishi {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -288px; }
+          .nav .menu .menu_first .menu_list .meishi:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -288px; }
+          .nav .menu .menu_first .menu_list .meishi .meishi_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .jiaju {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -320px; }
+          .nav .menu .menu_first .menu_list .jiaju:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -320px; }
+          .nav .menu .menu_first .menu_list .jiaju .jiaju_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .dianzi {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -352px; }
+          .nav .menu .menu_first .menu_list .dianzi:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -352px; }
+          .nav .menu .menu_first .menu_list .dianzi .dianzi_show {
+            z-index: 100;
+            position: absolute;
+            top: -300px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .bangong {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -384px; }
+          .nav .menu .menu_first .menu_list .bangong:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -384px; }
+          .nav .menu .menu_first .menu_list .bangong .bangong_show {
+            z-index: 100;
+            position: absolute;
+            top: -300px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .lipin {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -416px; }
+          .nav .menu .menu_first .menu_list .lipin:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -416px; }
+          .nav .menu .menu_first .menu_list .lipin .lipin_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+        .nav .menu .menu_first .menu_list .haiwaiguan {
+          opacity: 0.85;
+          background: url("../../imgs/index/brand_category1.png") no-repeat #fff 0 -448px; }
+          .nav .menu .menu_first .menu_list .haiwaiguan:hover {
+            opacity: 1;
+            background: url("../../imgs/index/brand_category2.png") no-repeat #fff 0 -448px; }
+          .nav .menu .menu_first .menu_list .haiwaiguan .haiwaiguan_show {
+            z-index: 100;
+            position: absolute;
+            top: -200px;
+            right: -800px;
+            background: #fff;
+            color: #000;
+            overflow: hidden;
+            width: 800px;
+            display: none; }
+    .nav .menu li.menu_last {
+      position: relative; }
+      .nav .menu li.menu_last .line_1 {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        width: 19px;
+        height: 38px;
+        background: url("../../imgs/index/share02.png") no-repeat -58px -169px; }
+        .nav .menu li.menu_last .line_1:hover {
+          background: url("../../imgs/index/share02.png") no-repeat -366px -252px; }
+      .nav .menu li.menu_last span {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 45px; }
+    .nav .menu li {
+      float: left;
+      font-size: 14px;
+      height: 38px;
+      line-height: 40px;
+      width: 82px;
+      text-align: center;
+      color: #c2a67d; }
+      .nav .menu li:hover {
+        color: #fff; }
+      .nav .menu li a {
+        display: inline-block;
+        width: inherit;
+        height: inherit; }
+    .nav .menu .menu_right {
+      position: absolute;
+      right: 15px;
+      top: 0;
+      height: 40px;
+      line-height: 40px;
+      overflow: hidden; }
+      .nav .menu .menu_right li {
+        float: left;
+        color: #fff;
+        width: 30px;
+        margin-right: 10px;
+        overflow: hidden; }
+        .nav .menu .menu_right li span {
+          display: inline-block;
+          width: 30px;
+          height: 40px;
+          margin-right: 3px;
+          float: left; }
+        .nav .menu .menu_right li i {
+          display: inline-block;
+          font-size: 12px;
+          float: left;
+          width: 110px;
+          height: 40px; }
+      .nav .menu .menu_right .a1 span {
+        background: url("../../imgs/index/share02.png") no-repeat -237px -66px; }
+      .nav .menu .menu_right .a2 span {
+        background: url("../../imgs/index/share02.png") no-repeat -296px -66px; }
+      .nav .menu .menu_right .a3 span {
+        background: url("../../imgs/index/share02.png") no-repeat -354px -66px; }
+
+.footbg {
+  border-top: 1px solid #c9c9c9;
+  height: 600px;
+  background: url("../../imgs/index/footer_message_bg.jpg") center; }
+  .footbg .foot .foot_top {
+    height: 117px;
+    border-bottom: 1px solid #c9c9c9;
+    overflow: hidden; }
+    .footbg .foot .foot_top dl {
+      float: left;
+      width: 230px;
+      height: 64px;
+      margin-top: 26px;
+      margin-right: 10px;
+      overflow: hidden; }
+      .footbg .foot .foot_top dl dt {
+        float: left;
+        width: 64px;
+        height: 64px;
+        margin-right: 10px;
+        margin-left: 5px; }
+        .footbg .foot .foot_top dl dt img {
+          display: block; }
+      .footbg .foot .foot_top dl .d1 {
+        height: 24px;
+        line-height: 24px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 5px; }
+      .footbg .foot .foot_top dl a:hover {
+        text-decoration: underline; }
+  .footbg .foot .foot_bottom {
+    height: 283px;
+    overflow: hidden; }
+    .footbg .foot .foot_bottom .foot_bottom1 {
+      float: left;
+      width: 170px; }
+      .footbg .foot .foot_bottom .foot_bottom1 .foot_bottom2 {
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+      .footbg .foot .foot_bottom .foot_bottom1 li {
+        height: 24px;
+        height: 24px;
+        line-height: 24px; }
+        .footbg .foot .foot_bottom .foot_bottom1 li a:hover {
+          text-decoration: underline; }
+  .footbg .foot .foot2 {
+    height: 177px;
+    text-align: center;
+    color: #fff; }
+    .footbg .foot .foot2 .foot2_1 {
+      height: 66px;
+      line-height: 66px;
+      color: #fff; }
+      .footbg .foot .foot2 .foot2_1 a:hover {
+        text-decoration: underline; }
+    .footbg .foot .foot2 .foot2_2 {
+      height: 48px;
+      line-height: 48px; }
+      .footbg .foot .foot2 .foot2_2 .foot2_2_1 {
+        height: 24px;
+        line-height: 24px;
+        color: #fff; }
+        .footbg .foot .foot2 .foot2_2 .foot2_2_1 a:hover {
+          text-decoration: underline; }
+    .footbg .foot .foot2 .foot2_3 {
+      height: 40px;
+      line-height: 40px;
+      margin-top: 23px; }
+
+.tan_tc {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: none; }
+  .tan_tc .tan_open {
+    z-index: 1000;
+    width: 920px;
+    height: 560px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; }
+    .tan_tc .tan_open .tan_close {
+      display: block;
+      width: 69px;
+      height: 68px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      cursor: pointer;
+      background: url("../../imgs/index/147866030690_69x68.png") no-repeat; }
+
+/*<!-------------------------顶部赔偿栏----------------------------->*/
+.top_img {
+  z-index: 1000;
+  background: url("../../imgs/index/147857407039_1920x80.jpg") top no-repeat; }
+  .top_img img {
+    display: block;
+    margin: 0 auto; }
+
+.top_tc {
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.8);
+  display: none; }
+  .top_tc .top_click {
+    width: 490px;
+    height: 512px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; }
+    .top_tc .top_click a {
+      width: 35px;
+      height: 35px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      cursor: pointer; }
 
 /*<!-------------------------登录栏---------------------------->*/
 .deng {
-  background: #f1f1f1;
-  color: #666; }
-
-.deng_top {
-  height: 30px;
-  line-height: 30px;
-  clear: both; }
-  .deng_top a {
-    color: #666; }
-  .deng_top .deng_left {
-    float: left; }
-    .deng_top .deng_left .home {
-      width: 110px;
-      clear: both; }
-      .deng_top .deng_left .home:hover {
-        color: #c2a67d; }
-      .deng_top .deng_left .home img {
-        float: left;
-        margin-top: 7px;
-        margin-right: 5px; }
-    .deng_top .deng_left .call {
-      width: 166px;
-      padding-left: 25px;
-      position: relative; }
-      .deng_top .deng_left .call span {
-        position: absolute;
-        top: -7px;
-        left: 0;
-        width: 25px;
-        height: 30px;
-        background: url(../../imgs/index/brandstore_share.png) no-repeat -348px -338px; }
-  .deng_top .deng_right {
-    float: right; }
-    .deng_top .deng_right li {
-      float: left;
-      height: 17px;
-      line-height: 17px;
-      border-right: 1px solid #ccc;
-      margin-top: 7px;
-      position: relative; }
-    .deng_top .deng_right .denglu {
-      width: 100px; }
-      .deng_top .deng_right .denglu a {
-        position: absolute;
-        right: 15px; }
-        .deng_top .deng_right .denglu a:hover {
-          color: #d00000; }
-    .deng_top .deng_right .zhuce {
-      width: 88px;
-      background: url(../../imgs/index/youli.gif) no-repeat 10px -5px; }
-      .deng_top .deng_right .zhuce a {
-        position: absolute;
-        right: 15px; }
-        .deng_top .deng_right .zhuce a:hover {
+  background: #f1f1f1; }
+  .deng .deng_top {
+    height: 30px;
+    line-height: 30px;
+    clear: both; }
+    .deng .deng_top a {
+      color: #666; }
+    .deng .deng_top .deng_left {
+      float: left; }
+      .deng .deng_top .deng_left .home {
+        width: 110px;
+        clear: both; }
+        .deng .deng_top .deng_left .home:hover {
           color: #c2a67d; }
-    .deng_top .deng_right .my5lux {
-      width: 130px;
-      background: url(../../imgs/index/brandstore_share.png) no-repeat no-repeat -253px -442px;
-      position: relative; }
-      .deng_top .deng_right .my5lux:hover {
-        background: #fff;
-        background: url(../../imgs/index/brandstore_share.png) no-repeat -253px -470px; }
-      .deng_top .deng_right .my5lux a {
-        position: absolute;
-        left: 15px; }
-        .deng_top .deng_right .my5lux a:hover {
-          color: #c2a67d; }
-      .deng_top .deng_right .my5lux .mylist {
-        position: absolute;
-        top: 17px;
-        left: -15px;
-        display: none;
-        z-index: 2; }
-        .deng_top .deng_right .my5lux .mylist li {
-          width: 130px;
+        .deng .deng_top .deng_left .home img {
+          float: left;
+          margin-top: 7px;
+          margin-right: 5px; }
+      .deng .deng_top .deng_left .call {
+        width: 166px;
+        padding-left: 25px;
+        position: relative; }
+        .deng .deng_top .deng_left .call span {
+          position: absolute;
+          top: -14px;
+          left: 0;
+          width: 25px;
           height: 30px;
-          line-height: 30px;
-          text-align: center;
-          clear: both;
-          border: none;
-          margin: 0; }
-          .deng_top .deng_right .my5lux .mylist li a {
-            width: 130px;
+          background: url("../../imgs/index/brandstore_share.png") no-repeat -348px -331px; }
+    .deng .deng_top .deng_right {
+      float: right; }
+      .deng .deng_top .deng_right li {
+        float: left; }
+      .deng .deng_top .deng_right .denglu {
+        width: 100px;
+        text-align: right; }
+        .deng .deng_top .deng_right .denglu a {
+          padding-right: 15px;
+          border-right: 1px solid #c2a67d; }
+          .deng .deng_top .deng_right .denglu a:hover {
+            color: #d00000; }
+      .deng .deng_top .deng_right .zhuce {
+        width: 88px;
+        background: url("../../imgs/index/youli.gif") no-repeat 18px 0;
+        text-align: right; }
+        .deng .deng_top .deng_right .zhuce a {
+          padding-right: 18px;
+          border-right: 1px solid #c2a67d; }
+          .deng .deng_top .deng_right .zhuce a:hover {
+            color: #c2a67d; }
+      .deng .deng_top .deng_right .my5lux {
+        width: 130px;
+        position: relative;
+        background: url("../../imgs/index/brandstore_share.png") no-repeat no-repeat -253px -436px; }
+        .deng .deng_top .deng_right .my5lux:hover {
+          background: url("../../imgs/index/brandstore_share.png") no-repeat -253px -464px; }
+        .deng .deng_top .deng_right .my5lux span {
+          display: inline-block;
+          padding-left: 18px; }
+          .deng .deng_top .deng_right .my5lux span:hover {
+            color: #c2a67d; }
+        .deng .deng_top .deng_right .my5lux .mylist {
+          position: absolute;
+          top: 30px;
+          left: 0;
+          display: none;
+          z-index: 3;
+          background: #fff;
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); }
+          .deng .deng_top .deng_right .my5lux .mylist li {
             width: 130px;
             height: 30px;
             line-height: 30px;
             text-align: center; }
-            .deng_top .deng_right .my5lux .mylist li a:hover {
+            .deng .deng_top .deng_right .my5lux .mylist li a:hover {
               color: #d00000; }
-    .deng_top .deng_right .help {
-      width: 85px; }
-      .deng_top .deng_right .help a {
-        position: absolute;
-        left: 20px; }
-        .deng_top .deng_right .help a:hover {
-          color: #c2a67d; }
-    .deng_top .deng_right .phone {
-      width: 128px;
-      border: none;
-      background: url(../../imgs/index/brandstore_share.png) no-repeat -200px -376px; }
-      .deng_top .deng_right .phone:hover {
-        background: url(../../imgs/index/brandstore_share.png) no-repeat -200px -411px; }
-      .deng_top .deng_right .phone a {
-        position: absolute;
-        left: 20px; }
-        .deng_top .deng_right .phone a:hover {
-          color: #d00000; }
-      .deng_top .deng_right .phone .qr {
-        width: 128px;
-        position: absolute;
-        top: 17px;
-        left: 0;
-        display: none;
-        z-index: 2; }
-        .deng_top .deng_right .phone .qr p {
-          text-align: center; }
-        .deng_top .deng_right .phone .qr dt {
-          width: 106px;
-          height: 106px; }
-          .deng_top .deng_right .phone .qr dt img {
-            position: absolute;
-            left: -10px;
-            width: 106px;
-            height: 106px; }
-        .deng_top .deng_right .phone .qr dd {
-          width: 106px;
-          height: 20px;
+      .deng .deng_top .deng_right .help {
+        width: 85px;
+        text-align: center; }
+        .deng .deng_top .deng_right .help a {
+          border-left: 1px solid #c2a67d;
+          border-right: 1px solid #c2a67d;
+          display: block;
+          width: 85px;
+          height: 17px;
+          line-height: 17px;
           position: relative;
-          left: 10px;
-          font-size: 13px; }
-          .deng_top .deng_right .phone .qr dd i {
-            position: relative;
-            left: 5px;
-            top: -2px;
-            height: 20px;
+          top: 7px; }
+          .deng .deng_top .deng_right .help a:hover {
+            color: #c2a67d; }
+      .deng .deng_top .deng_right .phone {
+        width: 128px;
+        position: relative;
+        background: url("../../imgs/index/brandstore_share.png") no-repeat -205px -369px; }
+        .deng .deng_top .deng_right .phone:hover {
+          background: url("../../imgs/index/brandstore_share.png") no-repeat -205px -404px; }
+        .deng .deng_top .deng_right .phone span {
+          display: inline-block;
+          padding-left: 18px; }
+          .deng .deng_top .deng_right .phone span:hover {
+            color: #d00000; }
+        .deng .deng_top .deng_right .phone .qr {
+          width: 128px;
+          position: absolute;
+          top: 30px;
+          left: 0;
+          background: #fff;
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          text-align: center;
+          display: none;
+          z-index: 3; }
+          .deng .deng_top .deng_right .phone .qr li {
+            width: 128px;
             line-height: 20px;
-            color: #d00000;
-            font-size: 16px; }
+            font-size: 13px; }
+            .deng .deng_top .deng_right .phone .qr li img {
+              width: 106px;
+              vertical-align: middle; }
+            .deng .deng_top .deng_right .phone .qr li i {
+              color: #d00000;
+              font-size: 16px; }
 
-/*<!-- -------------------logo------------------------------------------->*/
-.lg {
+/*<!-- -------------------顶部搜索栏------------------------------------------>*/
+.logo .lg {
   height: 110px;
   position: relative; }
-  .lg .logo1 {
+  .logo .lg .logo1 {
     position: absolute;
     top: 0;
     left: 0;
     width: 224px;
     height: 110px; }
-  .lg .logo2 {
+  .logo .lg .logo2 {
     position: absolute;
     left: 290px;
     top: 14px;
     width: 142px;
     height: 80px; }
-  .lg .search {
+  .logo .lg .search {
     position: absolute;
     left: 485px;
     top: 36px; }
-    .lg .search form {
+    .logo .lg .search form {
       background: #c69c6d;
       padding: 2px; }
-    .lg .search .search_input {
+    .logo .lg .search .search_input {
       width: 300px;
       height: 34px;
       line-height: 34px;
       border: none;
       background: #fff;
       padding-left: 3px; }
-    .lg .search .but {
+    .logo .lg .search .but {
       width: 80px;
       height: 34px;
       border: none;
       background: none;
       color: #fff;
       font-size: 15px; }
-    .lg .search .search_list {
+    .logo .lg .search .search_list {
       clear: both; }
-      .lg .search .search_list li {
+      .logo .lg .search .search_list li {
         float: left;
         font-size: 11px;
         padding-right: 25px;
-        line-height: 32px; }
-        .lg .search .search_list li a {
-          color: #999; }
-          .lg .search .search_list li a:hover {
-            color: #d00000; }
-  .lg .logocart {
+        line-height: 32px;
+        color: #999; }
+        .logo .lg .search .search_list li:hover {
+          color: #d00000; }
+  .logo .lg .logocart {
     position: absolute;
     right: 10px;
     top: 35px;
@@ -280,17 +960,552 @@ h1, h2, h3, h4, h5, h6, b {
     line-height: 32px;
     border: 1px solid #ccc;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
-    background: url(../../imgs/index/brandstore_share.png) no-repeat -337px -405px; }
-    .lg .logocart img {
+    background: url("../../imgs/index/brandstore_share.png") no-repeat -337px -405px; }
+    .logo .lg .logocart:hover {
+      border-bottom: none; }
+    .logo .lg .logocart img {
       position: absolute;
       left: 10px;
       top: 2px; }
-    .lg .logocart span {
+    .logo .lg .logocart span {
       position: absolute;
       left: 40px; }
-      .lg .logocart span a {
+      .logo .lg .logocart span a {
         color: #666; }
-        .lg .logocart span a i {
+        .logo .lg .logocart span a i {
           color: #d00000; }
+    .logo .lg .logocart .cartbox {
+      position: absolute;
+      top: 32px;
+      right: -1px;
+      width: 268px;
+      background: #fff;
+      padding: 10px 10px 20px;
+      border: 1px solid #ccc;
+      text-align: center;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+      display: none;
+      z-index: 2; }
+      .logo .lg .logocart .cartbox p {
+        line-height: 24px; }
+
+/*<!---------------------------轮播图------------------------------------------>*/
+.lunbo .lunbo_1 {
+  position: relative;
+  width: 1349px;
+  height: 520px;
+  margin: 0 auto;
+  overflow: hidden; }
+  .lunbo .lunbo_1 .list {
+    position: absolute;
+    left: -1440px;
+    top: 0;
+    width: 8640px;
+    overflow: hidden; }
+    .lunbo .lunbo_1 .list li {
+      float: left; }
+      .lunbo .lunbo_1 .list li img {
+        width: 1440px;
+        height: 520px; }
+  .lunbo .lunbo_1 .btn {
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    border-radius: 10px;
+    height: 16px;
+    background: rgba(0, 0, 0, 0.2); }
+    .lunbo .lunbo_1 .btn span {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      line-height: 12px;
+      margin: 2px 6px;
+      background: #fff;
+      border-radius: 50%;
+      text-align: center;
+      color: white;
+      cursor: pointer;
+      text-align: center; }
+    .lunbo .lunbo_1 .btn .active {
+      background: red; }
+  .lunbo .lunbo_1 .prev {
+    position: absolute;
+    z-index: 11;
+    left: 175px;
+    top: 200px;
+    display: block;
+    display: none;
+    cursor: pointer; }
+  .lunbo .lunbo_1 .next {
+    position: absolute;
+    z-index: 11;
+    right: 225px;
+    top: 200px;
+    display: block;
+    display: none;
+    cursor: pointer; }
+
+.main1 .main .pinpai .pinpai_title {
+  margin-top: 40px;
+  margin-bottom: 28px; }
+.main1 .main .pinpai .pinpai_list {
+  overflow: hidden; }
+  .main1 .main .pinpai .pinpai_list .last {
+    margin-right: 0; }
+  .main1 .main .pinpai .pinpai_list li {
+    float: left;
+    margin-right: 10px;
+    position: relative; }
+    .main1 .main .pinpai .pinpai_list li img {
+      display: block; }
+    .main1 .main .pinpai .pinpai_list li .box {
+      position: absolute;
+      bottom: 1px;
+      left: 30px;
+      width: 174px;
+      height: 54px;
+      overflow: hidden;
+      background: #fff; }
+      .main1 .main .pinpai .pinpai_list li .box img {
+        width: 60px;
+        margin: 10px auto 3px; }
+      .main1 .main .pinpai .pinpai_list li .box .line {
+        height: 30px;
+        position: relative; }
+        .main1 .main .pinpai .pinpai_list li .box .line span {
+          position: absolute;
+          top: 0;
+          left: 77px;
+          display: inline-block;
+          width: 20px;
+          height: 2px;
+          background: #000; }
+      .main1 .main .pinpai .pinpai_list li .box .pinpai_1,
+      .main1 .main .pinpai .pinpai_list li .box .pinpai_2 {
+        font-size: 14px;
+        text-align: center; }
+.main1 .main .hot_title {
+  height: 60px;
+  position: relative; }
+  .main1 .main .hot_title .hotbtn {
+    position: absolute;
+    right: 10px;
+    top: 22px; }
+    .main1 .main .hot_title .hotbtn .hot_pre {
+      display: inline-block;
+      width: 8px;
+      height: 15px;
+      margin-right: 20px;
+      background: url("../../imgs/index/share02.png") no-repeat -160px -384px; }
+    .main1 .main .hot_title .hotbtn .hot_next {
+      display: inline-block;
+      width: 8px;
+      height: 15px;
+      background: url("../../imgs/index/share02.png") no-repeat -180px -384px; }
+.main1 .main .hot_list {
+  height: 180px;
+  width: 100%;
+  overflow: hidden;
+  position: relative; }
+  .main1 .main .hot_list .hotbox {
+    width: 3630px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .main1 .main .hot_list .hotbox li {
+      float: left;
+      width: 1210px; }
+      .main1 .main .hot_list .hotbox li .minbox {
+        float: left;
+        width: 106px;
+        height: 55px;
+        padding: 14px 29px;
+        border: 1px solid #dfdfdf;
+        margin-right: 6px;
+        margin-bottom: 7px;
+        position: relative; }
+        .main1 .main .hot_list .hotbox li .minbox img {
+          display: block;
+          width: 106px;
+          height: 54px; }
+        .main1 .main .hot_list .hotbox li .minbox .hidebox {
+          position: absolute;
+          left: 29px;
+          top: 14px;
+          width: 106px;
+          height: 42px;
+          padding-top: 12px;
+          background: #fff;
+          display: none; }
+          .main1 .main .hot_list .hotbox li .minbox .hidebox .p1 {
+            font-size: 18px;
+            text-align: center; }
+            .main1 .main .hot_list .hotbox li .minbox .hidebox .p1:hover {
+              color: #c2a67d; }
+          .main1 .main .hot_list .hotbox li .minbox .hidebox .downline {
+            position: relative; }
+            .main1 .main .hot_list .hotbox li .minbox .hidebox .downline span {
+              display: inline-block;
+              position: absolute;
+              top: 5px;
+              left: 43px;
+              width: 20px;
+              height: 2px;
+              background: #000; }
+        .main1 .main .hot_list .hotbox li .minbox .topline {
+          position: absolute;
+          top: -1px;
+          left: -1px;
+          height: 1px;
+          width: 0;
+          background: #000; }
+        .main1 .main .hot_list .hotbox li .minbox .rightline {
+          position: absolute;
+          top: -1px;
+          right: -1px;
+          height: 0;
+          width: 1px;
+          background: #000; }
+        .main1 .main .hot_list .hotbox li .minbox .bottomline {
+          position: absolute;
+          bottom: -1px;
+          right: -1px;
+          height: 1px;
+          width: 0;
+          background: #000; }
+        .main1 .main .hot_list .hotbox li .minbox .leftline {
+          position: absolute;
+          top: -1px;
+          left: -1px;
+          height: 0;
+          width: 1px;
+          background: #000; }
+.main1 .main .shangchang_title {
+  height: 112px; }
+.main1 .main .shangchang_lists {
+  margin-bottom: 15px;
+  overflow: hidden; }
+  .main1 .main .shangchang_lists .active {
+    background: #000; }
+  .main1 .main .shangchang_lists li {
+    float: left;
+    width: 395px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background: #999;
+    margin-right: 8px; }
+.main1 .main .shangchang {
+  width: 1210px;
+  position: relative;
+  height: 517px;
+  overflow: hidden; }
+  .main1 .main .shangchang .boxlist {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 9999px;
+    overflow: hidden; }
+    .main1 .main .shangchang .boxlist .boxs {
+      float: left;
+      width: 1215px;
+      overflow: hidden; }
+      .main1 .main .shangchang .boxlist .boxs .boxs_left {
+        float: left;
+        margin-right: 5px; }
+      .main1 .main .shangchang .boxlist .boxs .boxs_right {
+        float: left; }
+        .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top {
+          overflow: hidden;
+          margin-bottom: 8px; }
+          .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top1 {
+            float: left;
+            width: 220px;
+            height: 248px;
+            border: 1px solid #ccc;
+            text-align: center; }
+            .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top1 .topimg {
+              text-align: center;
+              position: relative;
+              right: 0; }
+              .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top1 .topimg img {
+                width: 150px;
+                height: 150px; }
+          .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top2 {
+            float: left;
+            width: 367px;
+            height: 248px;
+            border: 1px solid #ccc;
+            text-align: center;
+            margin: 0 5px; }
+            .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top2 .topimg {
+              text-align: center;
+              position: relative;
+              top: 0;
+              right: 0; }
+              .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_top .boxs_right_top2 .topimg img {
+                width: 180px;
+                height: 150px; }
+        .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_bottom {
+          overflow: hidden; }
+          .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_bottom .boxs_right_bottom1 {
+            float: left;
+            width: 270px;
+            height: 255px;
+            border: 1px solid #ccc;
+            margin-right: 6px;
+            text-align: center; }
+            .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_bottom .boxs_right_bottom1 .topimg {
+              text-align: center;
+              position: relative;
+              right: 0; }
+              .main1 .main .shangchang .boxlist .boxs .boxs_right .boxs_right_bottom .boxs_right_bottom1 .topimg img {
+                width: 150px;
+                height: 150px; }
+.main1 .main .gouwu_title, .main1 .main .zhuti_title {
+  height: 120px; }
+.main1 .main .goulist {
+  overflow: hidden; }
+  .main1 .main .goulist .list01 {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    width: 234px;
+    margin-right: 8px;
+    color: #fff;
+    font-size: 14px;
+    background: #999;
+    position: relative;
+    cursor: pointer; }
+    .main1 .main .goulist .list01 .top1 {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 50px;
+      line-height: 50px;
+      width: 234px;
+      text-align: center; }
+    .main1 .main .goulist .list01 .bottom1 {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 234px;
+      height: 50px;
+      background: #333; }
+      .main1 .main .goulist .list01 .bottom1 .bottom2 {
+        border: 1px solid #fff;
+        height: 40px;
+        line-height: 40px;
+        width: 222px;
+        margin-top: 5px;
+        margin-left: 5px;
+        text-align: center; }
+.main1 .main .bao_title, .main1 .main .wan_title, .main1 .main .peishi_title, .main1 .main .huazhuang_title, .main1 .main .shishang_title {
+  height: 60px;
+  overflow: hidden; }
+  .main1 .main .bao_title .bao_title_rightbtn, .main1 .main .wan_title .bao_title_rightbtn, .main1 .main .peishi_title .bao_title_rightbtn, .main1 .main .huazhuang_title .bao_title_rightbtn, .main1 .main .shishang_title .bao_title_rightbtn {
+    float: right;
+    overflow: hidden; }
+    .main1 .main .bao_title .bao_title_rightbtn .mores, .main1 .main .wan_title .bao_title_rightbtn .mores, .main1 .main .peishi_title .bao_title_rightbtn .mores, .main1 .main .huazhuang_title .bao_title_rightbtn .mores, .main1 .main .shishang_title .bao_title_rightbtn .mores {
+      float: left;
+      font-size: 16px;
+      height: 60px;
+      line-height: 60px;
+      margin-right: 10px; }
+      .main1 .main .bao_title .bao_title_rightbtn .mores:hover, .main1 .main .wan_title .bao_title_rightbtn .mores:hover, .main1 .main .peishi_title .bao_title_rightbtn .mores:hover, .main1 .main .huazhuang_title .bao_title_rightbtn .mores:hover, .main1 .main .shishang_title .bao_title_rightbtn .mores:hover {
+        color: #c2a67d; }
+    .main1 .main .bao_title .bao_title_rightbtn .icon1, .main1 .main .wan_title .bao_title_rightbtn .icon1, .main1 .main .peishi_title .bao_title_rightbtn .icon1, .main1 .main .huazhuang_title .bao_title_rightbtn .icon1, .main1 .main .shishang_title .bao_title_rightbtn .icon1 {
+      float: left;
+      width: 18px;
+      height: 60px;
+      background: url("../../imgs/index/share02.png") no-repeat -470px -360px; }
+.main1 .main .goods {
+  overflow: hidden; }
+  .main1 .main .goods .good1 {
+    float: left;
+    width: 220px;
+    height: 366px;
+    border: 1px solid #ccc;
+    padding: 4px 9px 0;
+    margin-right: 8px; }
+    .main1 .main .goods .good1 .good1_top {
+      padding-bottom: 16px;
+      border-bottom: 1px dashed #d4d4d4;
+      overflow: hidden; }
+      .main1 .main .goods .good1 .good1_top li {
+        float: left;
+        width: 110px;
+        line-height: 36px;
+        font-size: 14px;
+        color: #666;
+        text-align: left; }
+        .main1 .main .goods .good1 .good1_top li:hover {
+          color: #c2a67d; }
+    .main1 .main .goods .good1 .good1_bottom {
+      overflow: hidden;
+      height: 150px;
+      width: 220px;
+      margin-top: 14px;
+      position: relative; }
+      .main1 .main .goods .good1 .good1_bottom .good1_bottom_list {
+        width: 9999px;
+        height: 114px;
+        overflow: hidden;
+        position: absolute;
+        left: -224px;
+        top: 0; }
+        .main1 .main .goods .good1 .good1_bottom .good1_bottom_list li {
+          float: left;
+          overflow: hidden;
+          width: 224px;
+          height: 150px; }
+          .main1 .main .goods .good1 .good1_bottom .good1_bottom_list li img {
+            float: left;
+            width: 90px;
+            height: 45px;
+            margin-bottom: 12px;
+            margin-left: 12px; }
+      .main1 .main .goods .good1 .good1_bottom .bottom_btn {
+        height: 30px;
+        position: absolute;
+        bottom: -15px;
+        left: 80px; }
+        .main1 .main .goods .good1 .good1_bottom .bottom_btn .btns {
+          overflow: hidden; }
+          .main1 .main .goods .good1 .good1_bottom .bottom_btn .btns li {
+            float: left;
+            width: 9px;
+            height: 9px;
+            margin: 0 5px;
+            border-radius: 50%;
+            background: #666;
+            cursor: pointer; }
+          .main1 .main .goods .good1 .good1_bottom .bottom_btn .btns .active1 {
+            background: #c77f40; }
+      .main1 .main .goods .good1 .good1_bottom .pre {
+        position: absolute;
+        bottom: 3px;
+        left: 65px;
+        display: inline-block;
+        width: 8px;
+        height: 14px;
+        cursor: pointer;
+        background: url("../../imgs/index/share02.png") no-repeat -239px -384px; }
+      .main1 .main .goods .good1 .good1_bottom .nex {
+        position: absolute;
+        bottom: 3px;
+        right: 65px;
+        display: inline-block;
+        width: 8px;
+        height: 14px;
+        cursor: pointer;
+        background: url("../../imgs/index/share02.png") no-repeat -267px -384px; }
+  .main1 .main .goods .good2 {
+    float: left;
+    width: 390px;
+    height: 370px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+    overflow: hidden;
+    position: relative; }
+    .main1 .main .goods .good2 img {
+      display: block; }
+    .main1 .main .goods .good2 .good2_shadow {
+      position: absolute;
+      width: 250px;
+      height: 90px;
+      top: 100px;
+      left: 70px;
+      background: #fff;
+      opacity: 0.9;
+      text-align: center;
+      display: none; }
+      .main1 .main .goods .good2 .good2_shadow dd {
+        font-size: 13px;
+        height: 20px;
+        margin-top: 10px; }
+      .main1 .main .goods .good2 .good2_shadow .line1 {
+        height: 2px;
+        position: relative; }
+        .main1 .main .goods .good2 .good2_shadow .line1 span {
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          left: 115px;
+          height: 2px;
+          width: 20px;
+          background: #000; }
+      .main1 .main .goods .good2 .good2_shadow dt {
+        font-size: 17px;
+        margin-bottom: 10px; }
+  .main1 .main .goods .good3 {
+    float: left;
+    height: 372px;
+    width: 562px;
+    overflow: hidden; }
+    .main1 .main .goods .good3 .good3_1 {
+      float: left;
+      width: 270px;
+      height: 180px;
+      border: 1px solid #ccc;
+      margin-right: 5px;
+      margin-bottom: 8px;
+      overflow: hidden; }
+      .main1 .main .goods .good3 .good3_1 img {
+        display: block;
+        width: 270px;
+        height: 180px; }
+.main1 .main .hudong_top {
+  overflow: hidden;
+  height: 600px;
+  margin-bottom: 10px; }
+  .main1 .main .hudong_top li {
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 5px; }
+    .main1 .main .hudong_top li img {
+      display: block; }
+  .main1 .main .hudong_top .hide1 {
+    margin-right: 0; }
+.main1 .main .hudong_bottom {
+  height: 140px;
+  margin-bottom: 50px;
+  overflow: hidden; }
+  .main1 .main .hudong_bottom .hudong_bottom_left {
+    float: left;
+    width: 600px;
+    overflow: hidden; }
+    .main1 .main .hudong_bottom .hudong_bottom_left li {
+      float: left;
+      width: 186px;
+      height: 59px;
+      border: 1px solid #c9c9c9;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      position: relative; }
+      .main1 .main .hudong_bottom .hudong_bottom_left li img {
+        display: block;
+        width: 186px;
+        height: 59px; }
+  .main1 .main .hudong_bottom .hudong_bottom_right {
+    float: right;
+    width: 600px;
+    height: 140px;
+    position: relative; }
+    .main1 .main .hudong_bottom .hudong_bottom_right li {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 600px;
+      height: 140px; }
+      .main1 .main .hudong_bottom .hudong_bottom_right li img {
+        display: block;
+        width: 600px;
+        height: 140px; }
 
 /*# sourceMappingURL=index.css.map */
