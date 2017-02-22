@@ -20,6 +20,19 @@
 	</head>
 
 	<body>
+		<!--成功加入购物车的弹窗-->
+		<div class="cart_tc1" style="display: none;">
+			<p>成功加入购物车，是否进入购物车</p>
+			<a href="goodcart.html"><span>进入购物车</span></a>
+			<span class="cart_btn">x</span>
+		</div>
+		<!--失败加入购物车的弹窗-->
+		<div class="cart_tc2" style="display: none;">
+			<p>加入购物车失败，请先登录</p>
+			<a href="denglu.html"><span>请登录</span></a>
+			<span class="cart_btn">x</span>
+		</div>
+		
 		<!------------右侧悬浮框--------------------->
 		<div class="right_menu1">
 			<div class="right_menu1_1">
@@ -174,13 +187,11 @@
 							<div class="imgshadow">
 							<img class="imgshadow2" src="imgs/shangpinxiangqing/14267384021569.jpg" />
 						</div>
-					</div>
-						
+					</div>						
 					<div class="maxImg_right">
 						<img src="imgs/shangpinxiangqing/14267384021569.jpg" />
 					</div>
-					<div class="left_minImg">
-						
+					<div class="left_minImg">					
 						<img src="imgs/shangpinxiangqing/14267384021569.jpg" class="active_4"/>
 						<img src="imgs/shangpinxiangqing/14130161055521_200x200.jpg" />
 						<img src="imgs/shangpinxiangqing/14267384012493.jpg" />
@@ -192,7 +203,7 @@
 					<div class="right_2">NORDSTERN北极星系列蓝色表盘真皮表带男士石英腕表 7540-3</div>
 					<div class="right_3">货号: 5Lux038862g_p55019</div>
 					<div class="right_4">
-						<p class="right_4_1">¥2419<span class="right_4_1_1">红卡会员价</span></p>
+						<p class="right_4_1">¥<span class="right_4_1_2">2419</span><span class="right_4_1_1">红卡会员价</span></p>
 						<p class="right_4_2">市场价：¥ 2688</p>
 						<p class="right_4_3">移动专享价:¥ 2394<span class="right_4_3_1">下载app立享优惠</span></p>
 						<a href="###" class="lux_1">
@@ -231,7 +242,7 @@
 						</div>
 						<div>
 							<span>款型</span>
-							<p>男款</p>
+							<p class="right_6_1">男款</p>
 						</div>
 						<div>
 							<span>数量</span>

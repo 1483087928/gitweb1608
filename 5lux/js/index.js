@@ -400,18 +400,18 @@
 			$(".bottom_btn .btns li").eq(n - 1).addClass("active1").siblings().removeClass();
 		}
 
-		$(".goods .good2").hover(
+		$(".goods .good2").mouseover(
 			function() {
-				$(this).find(".good2_shadow").stop().fadeIn(300).animate({
+				$(this).find(".good2_shadow").stop().show().animate({
 					top: 270
 				});
-			},
-			function() {
+			}
+			
+		).mouseout(function() {
 				$(this).find(".good2_shadow").stop().animate({
 					top: 100
-				}).fadeOut(300);
-			}
-		);
+				}).hide();
+			});
 		$(".hudong_top").find("li").hover(
 			function() {
 				$(this).stop().animate({

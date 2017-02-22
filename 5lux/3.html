@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//$(".c1").prop("checked",true);
+				$(".c1").click(function(){
+					if($(this).prop("checked")){
+						$(".c2").prop("checked",true);
+					}else{
+						$(".c2").prop("checked",false);
+					}					
+				})
+				$(".c2").click(function(){
+					if($(this).prop("checked")){
+						$(".c1").prop("checked",false);
+					}else{
+						$(".c1").prop("checked",false);
+					}					
+				})
+				
+				$(".c2").click(function(){
+					if($(this).prop("checked")){
+						$(".c1").prop("checked",false);
+						
+						$("p2").html()
+					}else{
+						$(".c1").prop("checked",false);
+					}					
+				})
+				
+			})
+		</script>
+	</head>
+	<body>
+		<div class="d1">
+			<input type="checkbox" class="c1"/>
+			
+		</div>
+		<div class="d2">
+			<input type="checkbox" class="c2"/>
+			<p class="p1">10</p>
+		</div>
+		<div class="d2">
+			<input type="checkbox" class="c2"/>
+			<p class="p1">10</p>
+		</div>
+		<div class="d2">
+			<input type="checkbox" class="c2"/>
+			<p class="p1">10</p>
+		</div>
+		<p class="p2">0</p>
+	</body>
+</html>

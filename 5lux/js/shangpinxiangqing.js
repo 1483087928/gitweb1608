@@ -1,4 +1,58 @@
 $(function(){
+	
+	var url = location.search;
+	var imgId = url.split("=")[1];
+	
+	$.get("http://localhost/hrefxqy.php",{goodsId:imgId},function(data){
+		var ord = eval("("+data+")");
+		//console.log(ord);
+		//console.log(ord[0].goodsImg);
+		$(".left_minImg img").each(function(){
+			$(this).attr("src",ord[0].goodsImg);			
+		});
+		$(".left_maxImg .left_maxImg2").attr("src",ord[0].goodsImg);
+		$(".maxImg_right img").attr("src",ord[0].goodsImg);
+		$(".imgshadow .imgshadow2").attr("src",ord[0].goodsImg);
+		
+		$(".right_2").text(ord[0].goodsDesc);
+		$(".right_4_1_2").text(ord[0].goodsPrice);
+		$(".right_6_1").text(ord[0].goodsType);
+	});
+	
+	
+	
+			var userName = $.cookie("username");
+		$(".addcart").click(function(){
+			if(userName==null){
+				$(".userName").html("登录");
+			}else{
+				$(".userName").html(userName);
+					$.get("http://localhost/addcart.php",{
+						"username": userName,
+						"goodsId": imgId,		
+						"goodsType": $(".right_6_1").text(),
+						"goodsPrice": $(".right_4_1_2").text(),
+						"goodsCount": $(".nums").val(),
+						"goodsDesc": $(".right_2").text(),
+						"goodsImg": $(".left_maxImg .left_maxImg2").attr("src")
+					},function(data){
+						console.log(data);
+						if(data.indexOf("1")>-1){
+							$(".cart_tc1").show();
+						}else{
+							$(".cart_tc2").show();
+						}
+					});
+			}
+		});
+		
+	
+	$(".cart_btn").click(function(){		
+		$(".cart_tc1").hide();
+		$(".cart_tc2").hide();	
+	});
+	
+	
 	function over(){
 				$(".imgshadow").show();
 				$(".maxImg_right").stop().show(300);
@@ -56,14 +110,14 @@ $(function(){
 				});
 			}
 								
-			$(window).load(function(){
+			
 				moveImg();
 				$(".left_maxImg")[0].onmouseenter = over;
 				$(".left_maxImg")[0].onmouseleave = out;
 				$(".left_maxImg").mousemove(function(e){					
 					move(e);
 				});
-			});
+			
 			
 			
 	$(".right_4_4").hover(function(){
@@ -130,7 +184,7 @@ $(function(){
 		$jian=$(".nums").attr("value");
 		$jian--;
 		if($jian<0){
-			$jian=0;
+			$jian=1;
 		}		
 		$(".nums").attr("value",$jian);
 	});

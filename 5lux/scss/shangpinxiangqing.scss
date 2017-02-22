@@ -1,6 +1,56 @@
 @charset "UTF-8";
 @import "common";
 
+.cart_tc1{
+    position: fixed;
+    top: 45%;
+    right: 30%;
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    z-index: 1000;
+ 
+    p{
+        height: 20px;
+        line-height: 20px;
+        font-size: 15px;
+        color: red;
+        margin: 20px auto;
+    }
+    a{
+        display: block;
+        padding: 10px 20px;
+        background: red;
+        color: #fff;
+        font-size: 15px;
+        width: 100px;
+        margin: 0 auto;        
+    }
+    .cart_btn{
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        font-size: 15px;
+        color: #fff;
+        background: #000;
+        right: 0px;
+        top: 0px;
+        cursor: pointer;
+    }
+}
+.cart_tc2{
+    @extend .cart_tc1;
+}
+
+
+
+
+
+
+
 .fangdajing {
     @extend .commonWidth;
     .fangdajing_wrap {

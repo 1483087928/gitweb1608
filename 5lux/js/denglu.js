@@ -29,9 +29,11 @@ $(function() {
 			if(data.indexOf("1") > -1) {
 				//2、跳转页面；
 				if($(".checkbtn").attr("checked")){
-					alert(1);
+					//alert(1);
 					//1、记录cookie;
 					$.cookie("username", $("#userId").val(), {path: '/',expires: 7});
+					$.cookie("pass", $("#passId").val(), {path: '/',expires: 7});
+					
 				}																		
 				location.href = "index.html";		
 			}else{
