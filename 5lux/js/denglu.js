@@ -5,6 +5,7 @@ $(function() {
 			$.get("http://localhost/checkUser.php", {
 				"username": $("#userId").val()
 			}, function(data) {
+				console.log(data);
 				if(data.indexOf("0") > -1) {
 					$(".zhanghao_2").html("用户名不存在");
 					$(".zhanghao_2").css("color","red");
